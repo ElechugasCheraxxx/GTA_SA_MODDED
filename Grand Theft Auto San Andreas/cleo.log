@@ -1,0 +1,1055 @@
+27/12/2025 18:50:54.798 
+27/12/2025 18:50:54.798 Log started.
+27/12/2025 18:50:54.800 CLEO v5.2.0
+27/12/2025 18:50:54.800 
+27/12/2025 18:50:54.800 Opening memory access...
+27/12/2025 18:50:54.800  Unprotecting memory region '.text': 0x00001000 (size: 0x00456000)
+27/12/2025 18:50:54.800  Unprotecting memory region '.rdata': 0x00458000 (size: 0x0004C000)
+27/12/2025 18:50:54.800  Unprotecting memory region '.text': 0x008B1000 (size: 0x0064A000)
+27/12/2025 18:50:54.800 
+27/12/2025 18:50:54.800 Started on game of version: SA 1.0 us
+27/12/2025 18:50:54.800 CLEO initialization: Phase 1
+27/12/2025 18:50:54.812 Commands database version 1.12 loaded from 'c:\program files (x86)\rockstar games\test 2\cleo\.config\sa.json'
+27/12/2025 18:50:54.812 Injecting MenuStatusNotifier...
+27/12/2025 18:50:54.812 Replaced call at: 0x0057B9FD, original function was: 0x00728350
+27/12/2025 18:50:54.812 Injecting DmaFix...
+27/12/2025 18:50:54.812 Injecting CustomOpcodeSystem...
+27/12/2025 18:50:54.812 Injecting ScriptEngine: Phase 1
+27/12/2025 18:50:54.812 Replaced call at: 0x0046A21B, original function was: 0x00469F00
+27/12/2025 18:50:54.812 Replaced call at: 0x0058D552, original function was: 0x0058C080
+27/12/2025 18:50:54.812 Replaced call at: 0x0058FCE4, original function was: 0x0058C080
+27/12/2025 18:50:54.812 Replaced call at: 0x005D14D5, original function was: 0x005D4C40
+27/12/2025 18:50:54.812 Replaced call at: 0x007487A8, original function was: 0x00745560
+27/12/2025 18:50:54.812 Replaced call at: 0x0053BDD7, original function was: 0x00468D50
+27/12/2025 18:50:54.812 Replaced call at: 0x005BA340, original function was: 0x00468D50
+27/12/2025 18:50:54.812 Replaced call at: 0x005D4FD7, original function was: 0x00468D50
+27/12/2025 18:50:54.812 Replaced call at: 0x00748E6B, original function was: 0x0053C900
+27/12/2025 18:50:54.812 Replaced call at: 0x0053C758, original function was: 0x0053C550
+27/12/2025 18:50:54.812 Replaced call at: 0x00748E04, original function was: 0x0053C550
+27/12/2025 18:50:54.812 Replaced call at: 0x00748E3E, original function was: 0x0053C550
+27/12/2025 18:50:54.812 
+27/12/2025 18:50:54.812 Initializing CLEO core opcodes...
+27/12/2025 18:50:54.812 Opcode [004E] registered
+27/12/2025 18:50:54.812 Opcode [0050] registered
+27/12/2025 18:50:54.812 Opcode [0051] registered
+27/12/2025 18:50:54.812 Opcode [0417] registered
+27/12/2025 18:50:54.812 Opcode [0A92] registered
+27/12/2025 18:50:54.812 Opcode [0A93] registered
+27/12/2025 18:50:54.812 Opcode [0A94] registered
+27/12/2025 18:50:54.812 Opcode [0A95] registered
+27/12/2025 18:50:54.812 Opcode [0AA0] registered
+27/12/2025 18:50:54.812 Opcode [0AA1] registered
+27/12/2025 18:50:54.812 Opcode [0AA9] registered
+27/12/2025 18:50:54.812 Opcode [0AB1] registered
+27/12/2025 18:50:54.812 Opcode [0AB2] registered
+27/12/2025 18:50:54.812 Opcode [0AB3] registered
+27/12/2025 18:50:54.812 Opcode [0AB4] registered
+27/12/2025 18:50:54.812 Opcode [0DD5] registered
+27/12/2025 18:50:54.812 Opcode [2000] registered
+27/12/2025 18:50:54.813 Opcode [2002] registered
+27/12/2025 18:50:54.813 Opcode [2003] registered
+27/12/2025 18:50:54.813 
+27/12/2025 18:50:54.813 Listing CLEO plugins:
+27/12/2025 18:50:54.814  c:\program files (x86)\rockstar games\test 2\cleo\cleo_plugins\SA.Audio.cleo
+27/12/2025 18:50:54.814  c:\program files (x86)\rockstar games\test 2\cleo\cleo_plugins\SA.DebugUtils.cleo
+27/12/2025 18:50:54.814  c:\program files (x86)\rockstar games\test 2\cleo\cleo_plugins\SA.FileSystemOperations.cleo
+27/12/2025 18:50:54.814  c:\program files (x86)\rockstar games\test 2\cleo\cleo_plugins\SA.GameEntities.cleo
+27/12/2025 18:50:54.814  c:\program files (x86)\rockstar games\test 2\cleo\cleo_plugins\SA.IniFiles.cleo
+27/12/2025 18:50:54.814  c:\program files (x86)\rockstar games\test 2\cleo\cleo_plugins\SA.Input.cleo
+27/12/2025 18:50:54.814  c:\program files (x86)\rockstar games\test 2\cleo\cleo_plugins\SA.Math.cleo
+27/12/2025 18:50:54.815  c:\program files (x86)\rockstar games\test 2\cleo\cleo_plugins\SA.MemoryOperations.cleo
+27/12/2025 18:50:54.815  c:\program files (x86)\rockstar games\test 2\cleo\cleo_plugins\SA.Text.cleo
+27/12/2025 18:50:54.815  c:\program files (x86)\rockstar games\test 2\cleo\CLEO+.cleo
+27/12/2025 18:50:54.815  c:\program files (x86)\rockstar games\test 2\cleo\FileSystemOperations.cleo - skipped, blacklisted in config.ini
+27/12/2025 18:50:54.815  c:\program files (x86)\rockstar games\test 2\cleo\IniFiles.cleo - skipped, blacklisted in config.ini
+27/12/2025 18:50:54.815  c:\program files (x86)\rockstar games\test 2\cleo\IntOperations.cleo - skipped, blacklisted in config.ini
+27/12/2025 18:50:54.815 
+27/12/2025 18:50:54.815 Loading plugin 'cleo\CLEO+.cleo'
+27/12/2025 18:50:54.824 
+27/12/2025 18:50:54.824 Loading plugin 'cleo\cleo_plugins\SA.Text.cleo'
+27/12/2025 18:50:54.827 Opcode [0390] registered
+27/12/2025 18:50:54.828 Opcode [0391] registered
+27/12/2025 18:50:54.828 Opcode [0ACA] registered
+27/12/2025 18:50:54.828 Opcode [0ACB] registered
+27/12/2025 18:50:54.828 Opcode [0ACC] registered
+27/12/2025 18:50:54.828 Opcode [0ACD] registered
+27/12/2025 18:50:54.828 Opcode [0ACE] registered
+27/12/2025 18:50:54.828 Opcode [0ACF] registered
+27/12/2025 18:50:54.828 Opcode [0AD0] registered
+27/12/2025 18:50:54.828 Opcode [0AD1] registered
+27/12/2025 18:50:54.828 Opcode [0AD3] registered
+27/12/2025 18:50:54.828 Opcode [0AD4] registered
+27/12/2025 18:50:54.828 Opcode [0ADB] registered
+27/12/2025 18:50:54.828 Opcode [0ADE] registered
+27/12/2025 18:50:54.828 Opcode [0ADF] registered
+27/12/2025 18:50:54.828 Opcode [0AE0] registered
+27/12/2025 18:50:54.828 Opcode [0AED] registered
+27/12/2025 18:50:54.828 Opcode [2600] registered
+27/12/2025 18:50:54.828 Opcode [2601] registered
+27/12/2025 18:50:54.828 Opcode [2602] registered
+27/12/2025 18:50:54.828 Opcode [2603] registered
+27/12/2025 18:50:54.828 Opcode [2604] registered
+27/12/2025 18:50:54.828 Opcode [2605] registered
+27/12/2025 18:50:54.828 Opcode [2606] registered
+27/12/2025 18:50:54.828 Opcode [2607] registered
+27/12/2025 18:50:54.828 Opcode [2608] registered
+27/12/2025 18:50:54.828 Opcode [2609] registered
+27/12/2025 18:50:54.828 
+27/12/2025 18:50:54.828 Loading plugin 'cleo\cleo_plugins\SA.MemoryOperations.cleo'
+27/12/2025 18:50:54.831 Opcode [0459] registered
+27/12/2025 18:50:54.831 Opcode [0A8C] registered
+27/12/2025 18:50:54.831 Opcode [0A8D] registered
+27/12/2025 18:50:54.831 Opcode [0A96] registered
+27/12/2025 18:50:54.831 Opcode [0A97] registered
+27/12/2025 18:50:54.831 Opcode [0A98] registered
+27/12/2025 18:50:54.831 Opcode [0A9F] registered
+27/12/2025 18:50:54.831 Opcode [0AA2] registered
+27/12/2025 18:50:54.831 Opcode [0AA3] registered
+27/12/2025 18:50:54.831 Opcode [0AA4] registered
+27/12/2025 18:50:54.831 Opcode [0AA5] registered
+27/12/2025 18:50:54.831 Opcode [0AA6] registered
+27/12/2025 18:50:54.831 Opcode [0AA7] registered
+27/12/2025 18:50:54.831 Opcode [0AA8] registered
+27/12/2025 18:50:54.831 Opcode [0AAA] registered
+27/12/2025 18:50:54.831 Opcode [0ABA] registered
+27/12/2025 18:50:54.831 Opcode [0AC6] registered
+27/12/2025 18:50:54.831 Opcode [0AC7] registered
+27/12/2025 18:50:54.831 Opcode [0AC8] registered
+27/12/2025 18:50:54.831 Opcode [0AC9] registered
+27/12/2025 18:50:54.831 Opcode [0AE9] registered
+27/12/2025 18:50:54.831 Opcode [0AEA] registered
+27/12/2025 18:50:54.831 Opcode [0AEB] registered
+27/12/2025 18:50:54.831 Opcode [0AEC] registered
+27/12/2025 18:50:54.831 Opcode [2400] registered
+27/12/2025 18:50:54.831 Opcode [2401] registered
+27/12/2025 18:50:54.831 Opcode [2402] registered
+27/12/2025 18:50:54.831 Opcode [2403] registered
+27/12/2025 18:50:54.831 Opcode [2404] registered
+27/12/2025 18:50:54.831 Opcode [2405] registered
+27/12/2025 18:50:54.831 Opcode [2406] registered
+27/12/2025 18:50:54.831 Opcode [2407] registered
+27/12/2025 18:50:54.831 Opcode [2408] registered
+27/12/2025 18:50:54.831 
+27/12/2025 18:50:54.831 Loading plugin 'cleo\cleo_plugins\SA.Math.cleo'
+27/12/2025 18:50:54.833 Opcode [0A8E] registered
+27/12/2025 18:50:54.833 Opcode [0A8F] registered
+27/12/2025 18:50:54.833 Opcode [0A90] registered
+27/12/2025 18:50:54.833 Opcode [0A91] registered
+27/12/2025 18:50:54.833 Opcode [0AEE] registered
+27/12/2025 18:50:54.833 Opcode [0AEF] registered
+27/12/2025 18:50:54.833 Opcode [0B10] registered
+27/12/2025 18:50:54.833 Opcode [0B11] registered
+27/12/2025 18:50:54.833 Opcode [0B12] registered
+27/12/2025 18:50:54.833 Opcode [0B13] registered
+27/12/2025 18:50:54.833 Opcode [0B14] registered
+27/12/2025 18:50:54.833 Opcode [0B15] registered
+27/12/2025 18:50:54.833 Opcode [0B16] registered
+27/12/2025 18:50:54.833 Opcode [0B17] registered
+27/12/2025 18:50:54.833 Opcode [0B18] registered
+27/12/2025 18:50:54.833 Opcode [0B19] registered
+27/12/2025 18:50:54.833 Opcode [0B1A] registered
+27/12/2025 18:50:54.833 Opcode [0B1B] registered
+27/12/2025 18:50:54.833 Opcode [0B1C] registered
+27/12/2025 18:50:54.833 Opcode [0B1D] registered
+27/12/2025 18:50:54.833 Opcode [0B1E] registered
+27/12/2025 18:50:54.833 Opcode [2700] registered
+27/12/2025 18:50:54.833 Opcode [2701] registered
+27/12/2025 18:50:54.833 Opcode [2702] registered
+27/12/2025 18:50:54.833 Opcode [2703] registered
+27/12/2025 18:50:54.833 Opcode [2704] registered
+27/12/2025 18:50:54.833 Opcode [2705] registered
+27/12/2025 18:50:54.833 Opcode [2706] registered
+27/12/2025 18:50:54.833 Opcode [2707] registered
+27/12/2025 18:50:54.833 Opcode [2708] registered
+27/12/2025 18:50:54.834 
+27/12/2025 18:50:54.834 Loading plugin 'cleo\cleo_plugins\SA.Input.cleo'
+27/12/2025 18:50:54.836 Opcode [0AB0] registered
+27/12/2025 18:50:54.836 Opcode [0ADC] registered
+27/12/2025 18:50:54.836 Opcode [2080] registered
+27/12/2025 18:50:54.836 Opcode [2081] registered
+27/12/2025 18:50:54.836 Opcode [2082] registered
+27/12/2025 18:50:54.836 Opcode [2083] registered
+27/12/2025 18:50:54.836 Opcode [2084] registered
+27/12/2025 18:50:54.836 Opcode [2085] registered
+27/12/2025 18:50:54.836 Opcode [2086] registered
+27/12/2025 18:50:54.836 
+27/12/2025 18:50:54.836 Loading plugin 'cleo\cleo_plugins\SA.IniFiles.cleo'
+27/12/2025 18:50:54.838 Opcode [0AF0] registered
+27/12/2025 18:50:54.838 Opcode [0AF1] registered
+27/12/2025 18:50:54.838 Opcode [0AF2] registered
+27/12/2025 18:50:54.838 Opcode [0AF3] registered
+27/12/2025 18:50:54.838 Opcode [0AF4] registered
+27/12/2025 18:50:54.838 Opcode [0AF5] registered
+27/12/2025 18:50:54.838 Opcode [2800] registered
+27/12/2025 18:50:54.838 Opcode [2801] registered
+27/12/2025 18:50:54.838 
+27/12/2025 18:50:54.838 Loading plugin 'cleo\cleo_plugins\SA.GameEntities.cleo'
+27/12/2025 18:50:54.841 Opcode [0AB5] registered
+27/12/2025 18:50:54.841 Opcode [0AB6] registered
+27/12/2025 18:50:54.841 Opcode [0AB7] registered
+27/12/2025 18:50:54.841 Opcode [0AB8] registered
+27/12/2025 18:50:54.841 Opcode [0ABD] registered
+27/12/2025 18:50:54.841 Opcode [0ABE] registered
+27/12/2025 18:50:54.841 Opcode [0ABF] registered
+27/12/2025 18:50:54.841 Opcode [0AD2] registered
+27/12/2025 18:50:54.841 Opcode [0ADD] registered
+27/12/2025 18:50:54.841 Opcode [0AE1] registered
+27/12/2025 18:50:54.841 Opcode [0AE2] registered
+27/12/2025 18:50:54.841 Opcode [0AE3] registered
+27/12/2025 18:50:54.841 
+27/12/2025 18:50:54.841 Loading plugin 'cleo\cleo_plugins\SA.FileSystemOperations.cleo'
+27/12/2025 18:50:54.843 Opcode [0A99] registered
+27/12/2025 18:50:54.843 Opcode [0A9A] registered
+27/12/2025 18:50:54.843 Opcode [0A9B] registered
+27/12/2025 18:50:54.843 Opcode [0A9C] registered
+27/12/2025 18:50:54.843 Opcode [0A9D] registered
+27/12/2025 18:50:54.843 Opcode [0A9E] registered
+27/12/2025 18:50:54.843 Opcode [0AAB] registered
+27/12/2025 18:50:54.843 Opcode [0AE4] registered
+27/12/2025 18:50:54.843 Opcode [0AE5] registered
+27/12/2025 18:50:54.843 Opcode [0AE6] registered
+27/12/2025 18:50:54.843 Opcode [0AE7] registered
+27/12/2025 18:50:54.843 Opcode [0AE8] registered
+27/12/2025 18:50:54.843 Opcode [0AD5] registered
+27/12/2025 18:50:54.843 Opcode [0AD6] registered
+27/12/2025 18:50:54.843 Opcode [0AD7] registered
+27/12/2025 18:50:54.843 Opcode [0AD8] registered
+27/12/2025 18:50:54.843 Opcode [0AD9] registered
+27/12/2025 18:50:54.843 Opcode [0ADA] registered
+27/12/2025 18:50:54.843 Opcode [0B00] registered
+27/12/2025 18:50:54.843 Opcode [0B01] registered
+27/12/2025 18:50:54.843 Opcode [0B02] registered
+27/12/2025 18:50:54.843 Opcode [0B03] registered
+27/12/2025 18:50:54.843 Opcode [0B04] registered
+27/12/2025 18:50:54.843 Opcode [0B05] registered
+27/12/2025 18:50:54.843 Opcode [2300] registered
+27/12/2025 18:50:54.843 Opcode [2301] registered
+27/12/2025 18:50:54.843 Opcode [2302] registered
+27/12/2025 18:50:54.843 Opcode [2303] registered
+27/12/2025 18:50:54.843 Opcode [2304] registered
+27/12/2025 18:50:54.843 Opcode [2305] registered
+27/12/2025 18:50:54.843 
+27/12/2025 18:50:54.843 Loading plugin 'cleo\cleo_plugins\SA.DebugUtils.cleo'
+27/12/2025 18:50:54.848 Opcode [00C3] registered
+27/12/2025 18:50:54.848 Opcode [00C4] registered
+27/12/2025 18:50:54.848 Opcode [2100] registered
+27/12/2025 18:50:54.848 Opcode [2101] registered
+27/12/2025 18:50:54.848 Opcode [2102] registered
+27/12/2025 18:50:54.851 
+27/12/2025 18:50:54.851 Loading plugin 'cleo\cleo_plugins\SA.Audio.cleo'
+27/12/2025 18:50:54.865 Opcode [0AAC] registered
+27/12/2025 18:50:54.865 Opcode [0AAD] registered
+27/12/2025 18:50:54.865 Opcode [0AAE] registered
+27/12/2025 18:50:54.865 Opcode [0AAF] registered
+27/12/2025 18:50:54.865 Opcode [0AB9] registered
+27/12/2025 18:50:54.865 Opcode [0ABB] registered
+27/12/2025 18:50:54.865 Opcode [0ABC] registered
+27/12/2025 18:50:54.865 Opcode [0AC0] registered
+27/12/2025 18:50:54.865 Opcode [0AC1] registered
+27/12/2025 18:50:54.865 Opcode [0AC2] registered
+27/12/2025 18:50:54.865 Opcode [0AC3] registered
+27/12/2025 18:50:54.865 Opcode [0AC4] registered
+27/12/2025 18:50:54.865 Opcode [0AC5] registered
+27/12/2025 18:50:54.865 Opcode [2500] registered
+27/12/2025 18:50:54.865 Opcode [2501] registered
+27/12/2025 18:50:54.865 Opcode [2502] registered
+27/12/2025 18:50:54.865 Opcode [2503] registered
+27/12/2025 18:50:54.865 Opcode [2504] registered
+27/12/2025 18:50:54.865 Opcode [2505] registered
+27/12/2025 18:50:54.865 Opcode [2506] registered
+27/12/2025 18:50:54.865 Opcode [2507] registered
+27/12/2025 18:50:54.865 Opcode [2508] registered
+27/12/2025 18:50:54.865 Opcode [2509] registered
+27/12/2025 18:50:54.865 Opcode [250A] registered
+27/12/2025 18:50:54.865 Opcode [250B] registered
+27/12/2025 18:50:54.865 Opcode [250C] registered
+27/12/2025 18:50:54.866 
+27/12/2025 18:50:54.988 Opcode [0AF6] registered
+27/12/2025 18:50:54.988 Opcode [0AF7] registered
+27/12/2025 18:50:54.988 Opcode [0AF8] registered
+27/12/2025 18:50:54.988 Opcode [0AF9] registered
+27/12/2025 18:50:54.988 Opcode [0AFA] registered
+27/12/2025 18:52:17.322 Opcode [0EA0] registered
+27/12/2025 18:52:17.322 Opcode [0EA1] registered
+27/12/2025 18:52:17.322 Opcode [0EA2] registered
+27/12/2025 18:52:17.322 Opcode [0B20] registered
+27/12/2025 18:52:17.322 Opcode [0B21] registered
+27/12/2025 18:52:17.322 Opcode [0E01] registered
+27/12/2025 18:52:17.322 Opcode [0E02] registered
+27/12/2025 18:52:17.322 Opcode [0D59] registered
+27/12/2025 18:52:17.322 Opcode [0E04] registered
+27/12/2025 18:52:17.322 Opcode [0E05] registered
+27/12/2025 18:52:17.322 Opcode [0E06] registered
+27/12/2025 18:52:17.322 Opcode [0E07] registered
+27/12/2025 18:52:17.322 Opcode [0E40] registered
+27/12/2025 18:52:17.322 Opcode [0E41] registered
+27/12/2025 18:52:17.322 Opcode [0E6C] registered
+27/12/2025 18:52:17.322 Opcode [0E6D] registered
+27/12/2025 18:52:17.322 Opcode [0EB0] registered
+27/12/2025 18:52:17.322 Opcode [0E08] registered
+27/12/2025 18:52:17.322 Opcode [0E09] registered
+27/12/2025 18:52:17.322 Opcode [0E0A] registered
+27/12/2025 18:52:17.322 Opcode [0E0B] registered
+27/12/2025 18:52:17.322 Opcode [0E0C] registered
+27/12/2025 18:52:17.322 Opcode [0E0D] registered
+27/12/2025 18:52:17.322 Opcode [0E0E] registered
+27/12/2025 18:52:17.322 Opcode [0E0F] registered
+27/12/2025 18:52:17.322 Opcode [0E3F] registered
+27/12/2025 18:52:17.322 Opcode [0EB8] registered
+27/12/2025 18:52:17.322 Opcode [0EB9] registered
+27/12/2025 18:52:17.322 Opcode [0EC7] registered
+27/12/2025 18:52:17.322 Opcode [0E10] registered
+27/12/2025 18:52:17.322 Opcode [0E11] registered
+27/12/2025 18:52:17.322 Opcode [0E23] registered
+27/12/2025 18:52:17.322 Opcode [0E3D] registered
+27/12/2025 18:52:17.322 Opcode [0E3E] registered
+27/12/2025 18:52:17.322 Opcode [0E60] registered
+27/12/2025 18:52:17.322 Opcode [0E67] registered
+27/12/2025 18:52:17.322 Opcode [0E68] registered
+27/12/2025 18:52:17.322 Opcode [0E69] registered
+27/12/2025 18:52:17.322 Opcode [0E8D] registered
+27/12/2025 18:52:17.322 Opcode [0E6E] registered
+27/12/2025 18:52:17.322 Opcode [0F13] registered
+27/12/2025 18:52:17.322 Opcode [0ED0] registered
+27/12/2025 18:52:17.322 Opcode [0ED1] registered
+27/12/2025 18:52:17.322 Opcode [0ED2] registered
+27/12/2025 18:52:17.322 Opcode [0ED3] registered
+27/12/2025 18:52:17.322 Opcode [0ED4] registered
+27/12/2025 18:52:17.322 Opcode [0ED5] registered
+27/12/2025 18:52:17.322 Opcode [0ED6] registered
+27/12/2025 18:52:17.322 Opcode [0ED7] registered
+27/12/2025 18:52:17.322 Opcode [0ED8] registered
+27/12/2025 18:52:17.322 Opcode [0EDA] registered
+27/12/2025 18:52:17.322 Opcode [0EDB] registered
+27/12/2025 18:52:17.322 Opcode [0EDC] registered
+27/12/2025 18:52:17.322 Opcode [0EDD] registered
+27/12/2025 18:52:17.322 Opcode [0EDE] registered
+27/12/2025 18:52:17.322 Opcode [0EDF] registered
+27/12/2025 18:52:17.322 Opcode [0EE0] registered
+27/12/2025 18:52:17.322 Opcode [0F0B] registered
+27/12/2025 18:52:17.322 Opcode [0F0C] registered
+27/12/2025 18:52:17.322 Opcode [0E12] registered
+27/12/2025 18:52:17.322 Opcode [0E13] registered
+27/12/2025 18:52:17.322 Opcode [0E14] registered
+27/12/2025 18:52:17.322 Opcode [0E15] registered
+27/12/2025 18:52:17.322 Opcode [0E16] registered
+27/12/2025 18:52:17.322 Opcode [0E17] registered
+27/12/2025 18:52:17.322 Opcode [0E18] registered
+27/12/2025 18:52:17.322 Opcode [0E19] registered
+27/12/2025 18:52:17.322 Opcode [0E1A] registered
+27/12/2025 18:52:17.322 Opcode [0E1B] registered
+27/12/2025 18:52:17.322 Opcode [0E1C] registered
+27/12/2025 18:52:17.322 Opcode [0E1D] registered
+27/12/2025 18:52:17.322 Opcode [0E20] registered
+27/12/2025 18:52:17.322 Opcode [0E25] registered
+27/12/2025 18:52:17.322 Opcode [0E24] registered
+27/12/2025 18:52:17.322 Opcode [0E26] registered
+27/12/2025 18:52:17.322 Opcode [0E2C] registered
+27/12/2025 18:52:17.322 Opcode [0E2D] registered
+27/12/2025 18:52:17.322 Opcode [0E32] registered
+27/12/2025 18:52:17.322 Opcode [0E45] registered
+27/12/2025 18:52:17.322 Opcode [0E4D] registered
+27/12/2025 18:52:17.322 Opcode [0E59] registered
+27/12/2025 18:52:17.322 Opcode [0E5A] registered
+27/12/2025 18:52:17.322 Opcode [0E5B] registered
+27/12/2025 18:52:17.322 Opcode [0E5D] registered
+27/12/2025 18:52:17.322 Opcode [0E5E] registered
+27/12/2025 18:52:17.322 Opcode [0E5F] registered
+27/12/2025 18:52:17.322 Opcode [0D4C] registered
+27/12/2025 18:52:17.322 Opcode [0D4D] registered
+27/12/2025 18:52:17.322 Opcode [0E00] registered
+27/12/2025 18:52:17.322 Opcode [0E61] registered
+27/12/2025 18:52:17.322 Opcode [0D39] registered
+27/12/2025 18:52:17.322 Opcode [0E5C] registered
+27/12/2025 18:52:17.322 Opcode [0E64] registered
+27/12/2025 18:52:17.322 Opcode [0E65] registered
+27/12/2025 18:52:17.322 Opcode [0E66] registered
+27/12/2025 18:52:17.322 Opcode [0E6F] registered
+27/12/2025 18:52:17.322 Opcode [0E70] registered
+27/12/2025 18:52:17.322 Opcode [0E71] registered
+27/12/2025 18:52:17.322 Opcode [0E7F] registered
+27/12/2025 18:52:17.322 Opcode [0E80] registered
+27/12/2025 18:52:17.322 Opcode [0E81] registered
+27/12/2025 18:52:17.322 Opcode [0E82] registered
+27/12/2025 18:52:17.322 Opcode [0E83] registered
+27/12/2025 18:52:17.322 Opcode [0E84] registered
+27/12/2025 18:52:17.322 Opcode [0E85] registered
+27/12/2025 18:52:17.322 Opcode [0E86] registered
+27/12/2025 18:52:17.322 Opcode [0E87] registered
+27/12/2025 18:52:17.322 Opcode [0E88] registered
+27/12/2025 18:52:17.322 Opcode [0E89] registered
+27/12/2025 18:52:17.322 Opcode [0E8A] registered
+27/12/2025 18:52:17.322 Opcode [0E8B] registered
+27/12/2025 18:52:17.322 Opcode [0E8C] registered
+27/12/2025 18:52:17.322 Opcode [0E8E] registered
+27/12/2025 18:52:17.322 Opcode [0E8F] registered
+27/12/2025 18:52:17.322 Opcode [0E90] registered
+27/12/2025 18:52:17.322 Opcode [0E91] registered
+27/12/2025 18:52:17.322 Opcode [0E92] registered
+27/12/2025 18:52:17.322 Opcode [0E93] registered
+27/12/2025 18:52:17.322 Opcode [0E94] registered
+27/12/2025 18:52:17.322 Opcode [0E95] registered
+27/12/2025 18:52:17.322 Opcode [0E98] registered
+27/12/2025 18:52:17.322 Opcode [0E99] registered
+27/12/2025 18:52:17.322 Opcode [0E9A] registered
+27/12/2025 18:52:17.322 Opcode [0E9B] registered
+27/12/2025 18:52:17.322 Opcode [0E9C] registered
+27/12/2025 18:52:17.322 Opcode [0E9D] registered
+27/12/2025 18:52:17.322 Opcode [0E9E] registered
+27/12/2025 18:52:17.322 Opcode [0E9F] registered
+27/12/2025 18:52:17.322 Opcode [0EA3] registered
+27/12/2025 18:52:17.322 Opcode [0EA4] registered
+27/12/2025 18:52:17.322 Opcode [0EA5] registered
+27/12/2025 18:52:17.322 Opcode [0EA6] registered
+27/12/2025 18:52:17.322 Opcode [0EA7] registered
+27/12/2025 18:52:17.322 Opcode [0EA8] registered
+27/12/2025 18:52:17.322 Opcode [0EA9] registered
+27/12/2025 18:52:17.322 Opcode [0EAA] registered
+27/12/2025 18:52:17.322 Opcode [0EAB] registered
+27/12/2025 18:52:17.322 Opcode [0EAC] registered
+27/12/2025 18:52:17.322 Opcode [0EAD] registered
+27/12/2025 18:52:17.322 Opcode [0EAE] registered
+27/12/2025 18:52:17.322 Opcode [0EAF] registered
+27/12/2025 18:52:17.323 Opcode [0EB1] registered
+27/12/2025 18:52:17.323 Opcode [0EB2] registered
+27/12/2025 18:52:17.323 Opcode [0D0A] registered
+27/12/2025 18:52:17.323 Opcode [0EB4] registered
+27/12/2025 18:52:17.323 Opcode [0EB5] registered
+27/12/2025 18:52:17.323 Opcode [0EB6] registered
+27/12/2025 18:52:17.323 Opcode [0EB7] registered
+27/12/2025 18:52:17.323 Opcode [0EBA] registered
+27/12/2025 18:52:17.323 Opcode [0EBB] registered
+27/12/2025 18:52:17.323 Opcode [0EBC] registered
+27/12/2025 18:52:17.323 Opcode [0EBD] registered
+27/12/2025 18:52:17.323 Opcode [0EBE] registered
+27/12/2025 18:52:17.323 Opcode [0EBF] registered
+27/12/2025 18:52:17.323 Opcode [0EC0] registered
+27/12/2025 18:52:17.323 Opcode [0EC1] registered
+27/12/2025 18:52:17.323 Opcode [0EC2] registered
+27/12/2025 18:52:17.323 Opcode [0EC3] registered
+27/12/2025 18:52:17.323 Opcode [0EC4] registered
+27/12/2025 18:52:17.323 Opcode [0EC5] registered
+27/12/2025 18:52:17.323 Opcode [0EC6] registered
+27/12/2025 18:52:17.323 Opcode [0EC8] registered
+27/12/2025 18:52:17.323 Opcode [0EC9] registered
+27/12/2025 18:52:17.323 Opcode [0ECA] registered
+27/12/2025 18:52:17.323 Opcode [0ECB] registered
+27/12/2025 18:52:17.323 Opcode [0ECC] registered
+27/12/2025 18:52:17.323 Opcode [0ECD] registered
+27/12/2025 18:52:17.323 Opcode [0ECE] registered
+27/12/2025 18:52:17.323 Opcode [0ECF] registered
+27/12/2025 18:52:17.323 Opcode [0ED9] registered
+27/12/2025 18:52:17.323 Opcode [0EE4] registered
+27/12/2025 18:52:17.323 Opcode [0EE5] registered
+27/12/2025 18:52:17.323 Opcode [0EE6] registered
+27/12/2025 18:52:17.323 Opcode [0EE7] registered
+27/12/2025 18:52:17.323 Opcode [0EE8] registered
+27/12/2025 18:52:17.323 Opcode [0EE9] registered
+27/12/2025 18:52:17.323 Opcode [0EEA] registered
+27/12/2025 18:52:17.323 Opcode [0EEB] registered
+27/12/2025 18:52:17.323 Opcode [0EEC] registered
+27/12/2025 18:52:17.323 Opcode [0EED] registered
+27/12/2025 18:52:17.323 Opcode [0EEE] registered
+27/12/2025 18:52:17.323 Opcode [0EEF] registered
+27/12/2025 18:52:17.323 Opcode [0EF5] registered
+27/12/2025 18:52:17.323 Opcode [0EF6] registered
+27/12/2025 18:52:17.323 Opcode [0EF8] registered
+27/12/2025 18:52:17.323 Opcode [0EF9] registered
+27/12/2025 18:52:17.323 Opcode [0EFA] registered
+27/12/2025 18:52:17.323 Opcode [0EFB] registered
+27/12/2025 18:52:17.323 Opcode [0EFC] registered
+27/12/2025 18:52:17.323 Opcode [0EFD] registered
+27/12/2025 18:52:17.323 Opcode [0EFE] registered
+27/12/2025 18:52:17.323 Opcode [0F0A] registered
+27/12/2025 18:52:17.323 Opcode [0F0E] registered
+27/12/2025 18:52:17.323 Opcode [0F0F] registered
+27/12/2025 18:52:17.323 Opcode [0F10] registered
+27/12/2025 18:52:17.323 Opcode [0F11] registered
+27/12/2025 18:52:17.323 Opcode [0F12] registered
+27/12/2025 18:52:17.323 Opcode [0F14] registered
+27/12/2025 18:52:17.323 Opcode [0F15] registered
+27/12/2025 18:52:17.323 Opcode [0F16] registered
+27/12/2025 18:52:17.323 Opcode [0F17] registered
+27/12/2025 18:52:17.323 Opcode [0D0F] registered
+27/12/2025 18:52:17.323 Opcode [0D10] registered
+27/12/2025 18:52:17.323 Opcode [0D11] registered
+27/12/2025 18:52:17.323 Opcode [0D2D] registered
+27/12/2025 18:52:17.323 Opcode [0D2E] registered
+27/12/2025 18:52:17.323 Opcode [0D2F] registered
+27/12/2025 18:52:17.323 Opcode [0D33] registered
+27/12/2025 18:52:17.323 Opcode [0E1E] registered
+27/12/2025 18:52:17.323 Opcode [0E3C] registered
+27/12/2025 18:52:17.323 Opcode [0E62] registered
+27/12/2025 18:52:17.323 Opcode [0E63] registered
+27/12/2025 18:52:17.323 Opcode [0D1E] registered
+27/12/2025 18:52:17.323 Opcode [0D16] registered
+27/12/2025 18:52:17.323 Opcode [0D17] registered
+27/12/2025 18:52:17.323 Opcode [0D18] registered
+27/12/2025 18:52:17.323 Opcode [0D19] registered
+27/12/2025 18:52:17.323 Opcode [0D1A] registered
+27/12/2025 18:52:17.323 Opcode [0D24] registered
+27/12/2025 18:52:17.323 Opcode [0D29] registered
+27/12/2025 18:52:17.323 Opcode [0D01] registered
+27/12/2025 18:52:17.323 Opcode [0D02] registered
+27/12/2025 18:52:17.323 Opcode [0D03] registered
+27/12/2025 18:52:17.323 Opcode [0D04] registered
+27/12/2025 18:52:17.323 Opcode [0E1F] registered
+27/12/2025 18:52:17.323 Opcode [0E27] registered
+27/12/2025 18:52:17.323 Opcode [0E03] registered
+27/12/2025 18:52:17.323 Opcode [0E29] registered
+27/12/2025 18:52:17.323 Opcode [0EF0] registered
+27/12/2025 18:52:17.323 Opcode [0EF1] registered
+27/12/2025 18:52:17.323 Opcode [0EF2] registered
+27/12/2025 18:52:17.323 Opcode [0EF4] registered
+27/12/2025 18:52:17.323 Opcode [0EF7] registered
+27/12/2025 18:52:17.323 Opcode [0EB3] registered
+27/12/2025 18:52:17.323 Opcode [0EF3] registered
+27/12/2025 18:52:17.323 Opcode [0F0D] registered
+27/12/2025 18:52:17.323 Opcode [0D0B] registered
+27/12/2025 18:52:17.323 Opcode [0D30] registered
+27/12/2025 18:52:17.323 Opcode [0D31] registered
+27/12/2025 18:52:17.323 Opcode [0D32] registered
+27/12/2025 18:52:17.323 Opcode [0E21] registered
+27/12/2025 18:52:17.323 Opcode [0E22] registered
+27/12/2025 18:52:17.323 Opcode [0E3B] registered
+27/12/2025 18:52:17.323 Opcode [0E28] registered
+27/12/2025 18:52:17.323 Opcode [0D4E] registered
+27/12/2025 18:52:17.323 Opcode [0D4F] registered
+27/12/2025 18:52:17.323 Opcode [0D27] registered
+27/12/2025 18:52:17.323 Opcode [0D37] registered
+27/12/2025 18:52:17.323 Opcode [0D38] registered
+27/12/2025 18:52:17.323 Opcode [0E6A] registered
+27/12/2025 18:52:17.323 Opcode [0EE2] registered
+27/12/2025 18:52:17.323 Opcode [0EE3] registered
+27/12/2025 18:52:17.323 Opcode [0E2A] registered
+27/12/2025 18:52:17.323 Opcode [0E2B] registered
+27/12/2025 18:52:17.323 Opcode [0E2E] registered
+27/12/2025 18:52:17.323 Opcode [0F02] registered
+27/12/2025 18:52:17.323 Opcode [0F03] registered
+27/12/2025 18:52:17.323 Opcode [0F04] registered
+27/12/2025 18:52:17.323 Opcode [0E2F] registered
+27/12/2025 18:52:17.323 Opcode [0E30] registered
+27/12/2025 18:52:17.323 Opcode [0E31] registered
+27/12/2025 18:52:17.323 Opcode [0E35] registered
+27/12/2025 18:52:17.323 Opcode [0E36] registered
+27/12/2025 18:52:17.323 Opcode [0E37] registered
+27/12/2025 18:52:17.323 Opcode [0E3A] registered
+27/12/2025 18:52:17.323 Opcode [0E33] registered
+27/12/2025 18:52:17.323 Opcode [0E34] registered
+27/12/2025 18:52:17.323 Opcode [0E38] registered
+27/12/2025 18:52:17.323 Opcode [0E39] registered
+27/12/2025 18:52:17.323 Opcode [0E4E] registered
+27/12/2025 18:52:17.323 Opcode [0E4F] registered
+27/12/2025 18:52:17.323 Opcode [0E50] registered
+27/12/2025 18:52:17.323 Opcode [0E51] registered
+27/12/2025 18:52:17.323 Opcode [0E52] registered
+27/12/2025 18:52:17.323 Opcode [0E53] registered
+27/12/2025 18:52:17.323 Opcode [0E54] registered
+27/12/2025 18:52:17.323 Opcode [0E55] registered
+27/12/2025 18:52:17.323 Opcode [0E56] registered
+27/12/2025 18:52:17.323 Opcode [0E57] registered
+27/12/2025 18:52:17.323 Opcode [0E58] registered
+27/12/2025 18:52:17.323 Opcode [0E42] registered
+27/12/2025 18:52:17.323 Opcode [0E43] registered
+27/12/2025 18:52:17.323 Opcode [0E44] registered
+27/12/2025 18:52:17.323 Opcode [0E46] registered
+27/12/2025 18:52:17.323 Opcode [0E47] registered
+27/12/2025 18:52:17.323 Opcode [0E48] registered
+27/12/2025 18:52:17.323 Opcode [0E49] registered
+27/12/2025 18:52:17.323 Opcode [0E4A] registered
+27/12/2025 18:52:17.323 Opcode [0E4B] registered
+27/12/2025 18:52:17.323 Opcode [0E4C] registered
+27/12/2025 18:52:17.323 Opcode [0E96] registered
+27/12/2025 18:52:17.323 Opcode [0E97] registered
+27/12/2025 18:52:17.323 Opcode [0EFF] registered
+27/12/2025 18:52:17.323 Opcode [0D3A] registered
+27/12/2025 18:52:17.323 Opcode [0D3B] registered
+27/12/2025 18:52:17.323 Opcode [0D3C] registered
+27/12/2025 18:52:17.323 Opcode [0D3E] registered
+27/12/2025 18:52:17.323 Opcode [0E6B] registered
+27/12/2025 18:52:17.323 Opcode [0EE1] registered
+27/12/2025 18:52:17.323 Opcode [0E72] registered
+27/12/2025 18:52:17.323 Opcode [0E73] registered
+27/12/2025 18:52:17.323 Opcode [0E74] registered
+27/12/2025 18:52:17.323 Opcode [0E75] registered
+27/12/2025 18:52:17.323 Opcode [0E76] registered
+27/12/2025 18:52:17.323 Opcode [0E77] registered
+27/12/2025 18:52:17.323 Opcode [0E78] registered
+27/12/2025 18:52:17.323 Opcode [0E79] registered
+27/12/2025 18:52:17.323 Opcode [0E7A] registered
+27/12/2025 18:52:17.323 Opcode [0E7B] registered
+27/12/2025 18:52:17.323 Opcode [0E7C] registered
+27/12/2025 18:52:17.323 Opcode [0E7D] registered
+27/12/2025 18:52:17.323 Opcode [0E7E] registered
+27/12/2025 18:52:17.323 Opcode [0F06] registered
+27/12/2025 18:52:17.323 Opcode [0F07] registered
+27/12/2025 18:52:17.323 Opcode [0F08] registered
+27/12/2025 18:52:17.323 Opcode [0F09] registered
+27/12/2025 18:52:17.323 Opcode [0F00] registered
+27/12/2025 18:52:17.323 Opcode [0F01] registered
+27/12/2025 18:52:17.323 Opcode [0F05] registered
+27/12/2025 19:01:33.951 
+27/12/2025 19:01:33.951 CLEO initialization: Phase 2
+27/12/2025 19:01:33.951 Injecting ScriptEngine: Phase 2
+27/12/2025 19:01:33.951 Injecting function at: 0x00463D50
+27/12/2025 19:01:33.951 Replaced call at: 0x0053EBE4, original function was: 0x00532260
+27/12/2025 19:01:33.951 Replaced call at: 0x0053E86C, original function was: 0x00532260
+27/12/2025 19:01:33.951 Replaced call at: 0x0053E981, original function was: 0x77C636D0
+27/12/2025 19:01:33.951 
+27/12/2025 19:01:33.951 Loaded plugins summary:
+27/12/2025 19:01:33.952  gta_sa.exe (14383616 bytes)
+27/12/2025 19:01:33.952  WINMM.dll (240128 bytes)
+27/12/2025 19:01:33.952  vorbisfile.dll (53760 bytes)
+27/12/2025 19:01:33.952  EAX.DLL (188416 bytes)
+27/12/2025 19:01:33.952  vorbishooked.dll (65536 bytes)
+27/12/2025 19:01:33.952  ogg.dll (36864 bytes)
+27/12/2025 19:01:33.952  vorbis.dll (1060864 bytes)
+27/12/2025 19:01:33.952  $fastman92limitAdjuster.asi (11247616 bytes)
+27/12/2025 19:01:33.952  DllTricks.dll (33792 bytes)
+27/12/2025 19:01:33.952  MinHook.x86.dll (14848 bytes)
+27/12/2025 19:01:33.952  zlib1.dll (107520 bytes)
+27/12/2025 19:01:33.952  CLEO.asi (458752 bytes)
+27/12/2025 19:01:33.952  cleo\CLEO+.cleo (661288 bytes)
+27/12/2025 19:01:33.952  cleo\cleo_plugins\SA.Text.cleo (313856 bytes)
+27/12/2025 19:01:33.952  cleo\cleo_plugins\SA.MemoryOperations.cleo (203776 bytes)
+27/12/2025 19:01:33.952  cleo\cleo_plugins\SA.Math.cleo (183296 bytes)
+27/12/2025 19:01:33.952  cleo\cleo_plugins\SA.Input.cleo (152064 bytes)
+27/12/2025 19:01:33.952  cleo\cleo_plugins\SA.IniFiles.cleo (173568 bytes)
+27/12/2025 19:01:33.952  cleo\cleo_plugins\SA.GameEntities.cleo (155136 bytes)
+27/12/2025 19:01:33.952  cleo\cleo_plugins\SA.FileSystemOperations.cleo (252928 bytes)
+27/12/2025 19:01:33.952  cleo\cleo_plugins\SA.DebugUtils.cleo (414208 bytes)
+27/12/2025 19:01:33.953  cleo\cleo_plugins\SA.Audio.cleo (225280 bytes)
+27/12/2025 19:01:33.953  bass.dll (107584 bytes)
+27/12/2025 19:01:33.953  CrashInfo.SA.asi (458752 bytes)
+27/12/2025 19:01:33.953  libcurl.dll (426496 bytes)
+27/12/2025 19:01:33.953  enbseries.asi (771584 bytes)
+27/12/2025 19:01:33.953  flickr.asi (32768 bytes)
+27/12/2025 19:01:33.953  modloader.asi (700928 bytes)
+27/12/2025 19:01:33.953  Optimiser.asi (56320 bytes)
+27/12/2025 19:01:33.953  ped_spec.asi (64000 bytes)
+27/12/2025 19:01:33.953  RagDoll_physics.asi (785920 bytes)
+27/12/2025 19:01:33.953  sa_widescreenfix_lite.asi (65024 bytes)
+27/12/2025 19:01:33.953  SilentPatchSA.asi (282624 bytes)
+27/12/2025 19:01:33.953  StreamMemFix1.0.asi (27648 bytes)
+27/12/2025 19:01:33.953  _noDEP.asi (69632 bytes)
+27/12/2025 19:01:33.953  modloader\.data\plugins\gta3\std.asi.dll (285184 bytes)
+27/12/2025 19:01:33.953  modloader\.data\plugins\gta3\std.bank.dll (293888 bytes)
+27/12/2025 19:01:33.953  modloader\.data\plugins\gta3\std.data.dll (3527680 bytes)
+27/12/2025 19:01:33.953  modloader\.data\plugins\gta3\std.fx.dll (399872 bytes)
+27/12/2025 19:01:33.953  modloader\.data\plugins\gta3\std.movies.dll (174080 bytes)
+27/12/2025 19:01:33.953  modloader\.data\plugins\gta3\std.scm.dll (174080 bytes)
+27/12/2025 19:01:33.953  modloader\.data\plugins\gta3\std.sprites.dll (482304 bytes)
+27/12/2025 19:01:33.953  modloader\.data\plugins\gta3\std.stream.dll (584192 bytes)
+27/12/2025 19:01:33.953  modloader\.data\plugins\gta3\std.text.dll (206336 bytes)
+27/12/2025 19:01:33.953  modloader\.data\plugins\gta3\std.tracks.dll (212992 bytes)
+27/12/2025 19:01:33.953  modloader\mixsets\mixsets.asi (532888 bytes)
+27/12/2025 19:01:33.953  modloader\vehfuncs\gsx.asi (336384 bytes)
+27/12/2025 19:01:33.953  modloader\vehfuncs\vehfuncs.asi (567424 bytes)
+27/12/2025 19:01:33.953  modloader\enhancefx\enhancefx.asi (287232 bytes)
+27/12/2025 19:01:33.953  modloader\gps redux\sa.gps.redux.asi (1975296 bytes)
+27/12/2025 19:01:33.954  modloader\effect loader\effectloader.asi (144896 bytes)
+27/12/2025 19:01:33.954  modloader\bullet hole mod\bullethole.asi (305664 bytes)
+27/12/2025 19:01:33.954  modloader\real ped overhaul\repairgta.sa.asi (343848 bytes)
+27/12/2025 19:01:33.954  modloader\rosa project evolved -  exterior\files\scripts\imglimitadjuster.asi (97280 bytes)
+27/12/2025 19:01:33.954  DINPUT8.dll (2376192 bytes)
+27/12/2025 19:01:33.954  enbseries\enbhelper.dll (56832 bytes)
+27/12/2025 19:01:33.954 
+27/12/2025 19:07:19.948 
+27/12/2025 19:07:19.948 Starting new game session, save slot: 3
+27/12/2025 19:07:19.948 
+27/12/2025 19:07:19.948 Initializing SoundSystem...
+27/12/2025 19:07:19.948 BASS library version is 516 (required 516 or newer)
+27/12/2025 19:07:19.949 Listing audio devices:
+27/12/2025 19:07:19.950  0: No sound
+27/12/2025 19:07:19.950  1: Audífonos externos
+27/12/2025 19:07:19.951  2: OBS AUDIO
+27/12/2025 19:07:19.951  3: BlackHole 64ch
+27/12/2025 19:07:19.951  4: Microsoft Teams Audio
+27/12/2025 19:07:19.951  5: Bocinas de MacBook Pro
+27/12/2025 19:07:19.951  Default device index: 1
+27/12/2025 19:07:19.951 Selecting default audio device #1: Audífonos externos
+27/12/2025 19:07:19.952 SoundSystem initialized
+27/12/2025 19:07:19.952 Floating-point audio supported!
+27/12/2025 19:07:19.952 Audio hardware acceleration disabled (no EAX)
+27/12/2025 19:07:19.953 
+27/12/2025 19:07:19.953 Loading CLEO text files...
+27/12/2025 19:07:19.957  Added 258 new FXT entries from file 'c:\program files (x86)\rockstar games\test 2\cleo\cleo_text\cheats.fxt'
+27/12/2025 19:07:19.957 
+27/12/2025 19:07:20.015 
+27/12/2025 19:07:20.015 Loading cleo safe 'c:\program files (x86)\rockstar games\test 2\cleo\cleo_saves\cs3.sav'
+27/12/2025 19:07:20.016 Finished. Loaded 1024 cleo variables, 0 saved threads info, 1 stopped threads info
+27/12/2025 19:07:20.016 
+27/12/2025 19:07:20.016 Listing CLEO scripts:
+27/12/2025 19:07:20.017  c:\program files (x86)\rockstar games\test 2\cleo\..\modloader\dynamic weapon draw sounds\cleo\dynamic weapon draw sound.cs
+27/12/2025 19:07:20.017  c:\program files (x86)\rockstar games\test 2\cleo\..\modloader\enterable hidden interiors repatched\cleo\ehi_repatched.cs
+27/12/2025 19:07:20.017  c:\program files (x86)\rockstar games\test 2\cleo\..\modloader\real ped overhaul\cleo\bag.cs
+27/12/2025 19:07:20.017  c:\program files (x86)\rockstar games\test 2\cleo\..\modloader\real ped overhaul\cleo\briefcase.cs
+27/12/2025 19:07:20.017  c:\program files (x86)\rockstar games\test 2\cleo\..\modloader\real ped overhaul\cleo\cane.cs
+27/12/2025 19:07:20.017  c:\program files (x86)\rockstar games\test 2\cleo\..\modloader\real ped overhaul\cleo\newspaper.cs
+27/12/2025 19:07:20.017  c:\program files (x86)\rockstar games\test 2\cleo\..\modloader\real ped overhaul\cleo\real_peds.cs
+27/12/2025 19:07:20.017  c:\program files (x86)\rockstar games\test 2\cleo\..\modloader\real ped overhaul\cleo\real_peds2.cs
+27/12/2025 19:07:20.017  c:\program files (x86)\rockstar games\test 2\cleo\..\modloader\real ped overhaul\cleo\shopping bag.cs
+27/12/2025 19:07:20.017  c:\program files (x86)\rockstar games\test 2\cleo\..\modloader\real ped overhaul\cleo\taxi.cs
+27/12/2025 19:07:20.017  c:\program files (x86)\rockstar games\test 2\cleo\..\modloader\weaponrecoilauto\cleo\weaponrecoilauto.cs
+27/12/2025 19:07:20.017  c:\program files (x86)\rockstar games\test 2\cleo\2048MB-StreamMemory.cs
+27/12/2025 19:07:20.017  c:\program files (x86)\rockstar games\test 2\cleo\MemFix.cs
+27/12/2025 19:07:20.017  c:\program files (x86)\rockstar games\test 2\cleo\RZL-Trainer.cs
+27/12/2025 19:07:20.017  c:\program files (x86)\rockstar games\test 2\cleo\RagDoll_FrameAdjust.cs
+27/12/2025 19:07:20.017  c:\program files (x86)\rockstar games\test 2\cleo\RagDoll_uniqueAbility.cs
+27/12/2025 19:07:20.017  c:\program files (x86)\rockstar games\test 2\cleo\SFBR.cs
+27/12/2025 19:07:20.017  c:\program files (x86)\rockstar games\test 2\cleo\SMBR.cs.cs
+27/12/2025 19:07:20.017  c:\program files (x86)\rockstar games\test 2\cleo\StreamMemFix.cs
+27/12/2025 19:07:20.017  c:\program files (x86)\rockstar games\test 2\cleo\cheats.cs
+27/12/2025 19:07:20.017  c:\program files (x86)\rockstar games\test 2\cleo\force4.cs
+27/12/2025 19:07:20.017  c:\program files (x86)\rockstar games\test 2\cleo\memory1024.cs
+27/12/2025 19:07:20.017  c:\program files (x86)\rockstar games\test 2\cleo\memory512.cs
+27/12/2025 19:07:20.017  c:\program files (x86)\rockstar games\test 2\cleo\noisefix.cs
+27/12/2025 19:07:20.017  c:\program files (x86)\rockstar games\test 2\cleo\static_car_shadow.cs
+27/12/2025 19:07:20.018 Starting CLEO scripts...
+27/12/2025 19:07:20.018 
+27/12/2025 19:07:20.018 Loading custom script 'c:\program files (x86)\rockstar games\test 2\cleo\..\modloader\dynamic weapon draw sounds\cleo\dynamic weapon draw sound.cs'...
+27/12/2025 19:07:20.019 Registering custom script named 'dynamic'
+27/12/2025 19:07:20.019 
+27/12/2025 19:07:20.019 Loading custom script 'c:\program files (x86)\rockstar games\test 2\cleo\..\modloader\enterable hidden interiors repatched\cleo\ehi_repatched.cs'...
+27/12/2025 19:07:20.019 Registering custom script named 'ehi_rep'
+27/12/2025 19:07:20.019 
+27/12/2025 19:07:20.019 Loading custom script 'c:\program files (x86)\rockstar games\test 2\cleo\..\modloader\real ped overhaul\cleo\bag.cs'...
+27/12/2025 19:07:20.020 Registering custom script named 'bag.cs'
+27/12/2025 19:07:20.020 
+27/12/2025 19:07:20.020 Loading custom script 'c:\program files (x86)\rockstar games\test 2\cleo\..\modloader\real ped overhaul\cleo\briefcase.cs'...
+27/12/2025 19:07:20.020 Registering custom script named 'briefca'
+27/12/2025 19:07:20.020 
+27/12/2025 19:07:20.020 Loading custom script 'c:\program files (x86)\rockstar games\test 2\cleo\..\modloader\real ped overhaul\cleo\cane.cs'...
+27/12/2025 19:07:20.020 Registering custom script named 'cane.cs'
+27/12/2025 19:07:20.020 
+27/12/2025 19:07:20.020 Loading custom script 'c:\program files (x86)\rockstar games\test 2\cleo\..\modloader\real ped overhaul\cleo\newspaper.cs'...
+27/12/2025 19:07:20.021 Registering custom script named 'newspap'
+27/12/2025 19:07:20.021 
+27/12/2025 19:07:20.021 Loading custom script 'c:\program files (x86)\rockstar games\test 2\cleo\..\modloader\real ped overhaul\cleo\real_peds.cs'...
+27/12/2025 19:07:20.021 Registering custom script named 'real_pe'
+27/12/2025 19:07:20.021 
+27/12/2025 19:07:20.021 Loading custom script 'c:\program files (x86)\rockstar games\test 2\cleo\..\modloader\real ped overhaul\cleo\real_peds2.cs'...
+27/12/2025 19:07:20.021 Registering custom script named 'real_pe'
+27/12/2025 19:07:20.021 
+27/12/2025 19:07:20.021 Loading custom script 'c:\program files (x86)\rockstar games\test 2\cleo\..\modloader\real ped overhaul\cleo\shopping bag.cs'...
+27/12/2025 19:07:20.022 Registering custom script named 'shoppin'
+27/12/2025 19:07:20.022 
+27/12/2025 19:07:20.022 Loading custom script 'c:\program files (x86)\rockstar games\test 2\cleo\..\modloader\real ped overhaul\cleo\taxi.cs'...
+27/12/2025 19:07:20.022 Registering custom script named 'taxi.cs'
+27/12/2025 19:07:20.022 
+27/12/2025 19:07:20.022 Loading custom script 'c:\program files (x86)\rockstar games\test 2\cleo\..\modloader\weaponrecoilauto\cleo\weaponrecoilauto.cs'...
+27/12/2025 19:07:20.023 Registering custom script named 'weaponr'
+27/12/2025 19:07:20.023 
+27/12/2025 19:07:20.023 Loading custom script 'c:\program files (x86)\rockstar games\test 2\cleo\2048MB-StreamMemory.cs'...
+27/12/2025 19:07:20.023 Registering custom script named '2048MB-'
+27/12/2025 19:07:20.023 
+27/12/2025 19:07:20.023 Loading custom script 'c:\program files (x86)\rockstar games\test 2\cleo\MemFix.cs'...
+27/12/2025 19:07:20.023 Registering custom script named 'MemFix.'
+27/12/2025 19:07:20.023 
+27/12/2025 19:07:20.023 Loading custom script 'c:\program files (x86)\rockstar games\test 2\cleo\RZL-Trainer.cs'...
+27/12/2025 19:07:20.033 Registering custom script named 'RZL-Tra'
+27/12/2025 19:07:20.033 
+27/12/2025 19:07:20.033 Loading custom script 'c:\program files (x86)\rockstar games\test 2\cleo\RagDoll_FrameAdjust.cs'...
+27/12/2025 19:07:20.033 Registering custom script named 'RagDoll'
+27/12/2025 19:07:20.033 
+27/12/2025 19:07:20.033 Loading custom script 'c:\program files (x86)\rockstar games\test 2\cleo\RagDoll_uniqueAbility.cs'...
+27/12/2025 19:07:20.033 Registering custom script named 'RagDoll'
+27/12/2025 19:07:20.033 
+27/12/2025 19:07:20.033 Loading custom script 'c:\program files (x86)\rockstar games\test 2\cleo\SFBR.cs'...
+27/12/2025 19:07:20.033 Registering custom script named 'SFBR.cs'
+27/12/2025 19:07:20.033 
+27/12/2025 19:07:20.033 Loading custom script 'c:\program files (x86)\rockstar games\test 2\cleo\SMBR.cs.cs'...
+27/12/2025 19:07:20.034 Registering custom script named 'SMBR.cs'
+27/12/2025 19:07:20.034 
+27/12/2025 19:07:20.034 Loading custom script 'c:\program files (x86)\rockstar games\test 2\cleo\StreamMemFix.cs'...
+27/12/2025 19:07:20.034 Registering custom script named 'StreamM'
+27/12/2025 19:07:20.034 
+27/12/2025 19:07:20.034 Loading custom script 'c:\program files (x86)\rockstar games\test 2\cleo\cheats.cs'...
+27/12/2025 19:07:20.034 Custom script 'c:\program files (x86)\rockstar games\test 2\cleo\cheats.cs' found in the stop-list
+27/12/2025 19:07:20.034 
+27/12/2025 19:07:20.034 Loading custom script 'c:\program files (x86)\rockstar games\test 2\cleo\force4.cs'...
+27/12/2025 19:07:20.035 Registering custom script named 'force4.'
+27/12/2025 19:07:20.035 
+27/12/2025 19:07:20.035 Loading custom script 'c:\program files (x86)\rockstar games\test 2\cleo\memory1024.cs'...
+27/12/2025 19:07:20.035 Registering custom script named 'memory1'
+27/12/2025 19:07:20.035 
+27/12/2025 19:07:20.035 Loading custom script 'c:\program files (x86)\rockstar games\test 2\cleo\memory512.cs'...
+27/12/2025 19:07:20.035 Registering custom script named 'memory5'
+27/12/2025 19:07:20.035 
+27/12/2025 19:07:20.035 Loading custom script 'c:\program files (x86)\rockstar games\test 2\cleo\noisefix.cs'...
+27/12/2025 19:07:20.035 Registering custom script named 'noisefi'
+27/12/2025 19:07:20.035 
+27/12/2025 19:07:20.035 Loading custom script 'c:\program files (x86)\rockstar games\test 2\cleo\static_car_shadow.cs'...
+27/12/2025 19:07:20.035 Registering custom script named 'static_'
+27/12/2025 19:07:20.824 
+27/12/2025 19:07:20.824 Ending current game session
+27/12/2025 19:07:20.824 
+27/12/2025 19:07:20.825 Cleaning up 0 allocated memory block(s):
+27/12/2025 19:07:20.825 
+27/12/2025 19:07:20.825 Cleaning up 0 loaded libraries:
+27/12/2025 19:07:20.825 
+27/12/2025 19:07:20.825 Unloading scripts...
+27/12/2025 19:07:20.825 Unregistering custom script named 'static_'
+27/12/2025 19:07:20.825 Unregistering custom script named 'noisefi'
+27/12/2025 19:07:20.825 Unregistering custom script named 'memory5'
+27/12/2025 19:07:20.825 Unregistering custom script named 'memory1'
+27/12/2025 19:07:20.825 Unregistering custom script named 'force4.'
+27/12/2025 19:07:20.825 Unregistering custom script named 'StreamM'
+27/12/2025 19:07:20.825 Unregistering custom script named 'SMBR.cs'
+27/12/2025 19:07:20.825 Unregistering custom script named 'SFBR.cs'
+27/12/2025 19:07:20.825 Unregistering custom script named 'RagDoll'
+27/12/2025 19:07:20.825 Unregistering custom script named 'RagDoll'
+27/12/2025 19:07:20.825 Unregistering custom script named 'RZL-Tra'
+27/12/2025 19:07:20.825 Unregistering custom script named 'MemFix.'
+27/12/2025 19:07:20.825 Unregistering custom script named '2048MB-'
+27/12/2025 19:07:20.825 Unregistering custom script named 'weaponr'
+27/12/2025 19:07:20.825 Unregistering custom script named 'taxi.cs'
+27/12/2025 19:07:20.825 Unregistering custom script named 'shoppin'
+27/12/2025 19:07:20.825 Unregistering custom script named 'real_pe'
+27/12/2025 19:07:20.825 Unregistering custom script named 'real_pe'
+27/12/2025 19:07:20.825 Unregistering custom script named 'newspap'
+27/12/2025 19:07:20.825 Unregistering custom script named 'cane.cs'
+27/12/2025 19:07:20.825 Unregistering custom script named 'briefca'
+27/12/2025 19:07:20.825 Unregistering custom script named 'bag.cs'
+27/12/2025 19:07:20.825 Unregistering custom script named 'ehi_rep'
+27/12/2025 19:07:20.825 Unregistering custom script named 'dynamic'
+27/12/2025 19:07:20.825  Deleting inactive script named 'briefca'
+27/12/2025 19:07:20.825  Deleting inactive script named 'real_pe'
+27/12/2025 19:07:20.825  Deleting inactive script named 'bag.cs'
+27/12/2025 19:07:20.825  Deleting inactive script named 'shoppin'
+27/12/2025 19:07:20.825  Deleting inactive script named 'ehi_rep'
+27/12/2025 19:07:20.825  Deleting inactive script named 'weaponr'
+27/12/2025 19:07:20.825  Deleting inactive script named 'dynamic'
+27/12/2025 19:07:20.825  Deleting inactive script named 'taxi.cs'
+27/12/2025 19:07:20.825  Deleting inactive script named 'cane.cs'
+27/12/2025 19:07:20.825  Deleting inactive script named 'newspap'
+27/12/2025 19:07:20.825  Deleting inactive script named 'real_pe'
+27/12/2025 19:07:20.825  Deleting inactive script named '2048MB-'
+27/12/2025 19:07:20.825  Deleting inactive script named 'MemFix.'
+27/12/2025 19:07:20.825  Deleting inactive script named 'RZL-Tra'
+27/12/2025 19:07:20.826  Deleting inactive script named 'RagDoll'
+27/12/2025 19:07:20.826  Deleting inactive script named 'RagDoll'
+27/12/2025 19:07:20.826  Deleting inactive script named 'SFBR.cs'
+27/12/2025 19:07:20.826  Deleting inactive script named 'SMBR.cs'
+27/12/2025 19:07:20.826  Deleting inactive script named 'StreamM'
+27/12/2025 19:07:20.826  Deleting inactive script named 'force4.'
+27/12/2025 19:07:20.826  Deleting inactive script named 'memory1'
+27/12/2025 19:07:20.826  Deleting inactive script named 'memory5'
+27/12/2025 19:07:20.826  Deleting inactive script named 'noisefi'
+27/12/2025 19:07:20.826  Deleting inactive script named 'static_'
+27/12/2025 19:07:20.826 Cleaning up script data...
+27/12/2025 19:07:20.849 
+27/12/2025 19:07:20.849 Starting new game session, save slot: 3
+27/12/2025 19:07:20.849 
+27/12/2025 19:07:20.849 Loading CLEO text files...
+27/12/2025 19:07:20.850  Added 258 new FXT entries from file 'c:\program files (x86)\rockstar games\test 2\cleo\cleo_text\cheats.fxt'
+27/12/2025 19:07:20.850 
+27/12/2025 19:07:20.924 
+27/12/2025 19:07:20.924 
+27/12/2025 19:07:20.924 Loading cleo safe 'c:\program files (x86)\rockstar games\test 2\cleo\cleo_saves\cs3.sav'
+27/12/2025 19:07:20.924 Finished. Loaded 1024 cleo variables, 0 saved threads info, 1 stopped threads info
+27/12/2025 19:07:20.924 
+27/12/2025 19:07:20.924 Listing CLEO scripts:
+27/12/2025 19:07:20.925  c:\program files (x86)\rockstar games\test 2\cleo\..\modloader\dynamic weapon draw sounds\cleo\dynamic weapon draw sound.cs
+27/12/2025 19:07:20.925  c:\program files (x86)\rockstar games\test 2\cleo\..\modloader\enterable hidden interiors repatched\cleo\ehi_repatched.cs
+27/12/2025 19:07:20.925  c:\program files (x86)\rockstar games\test 2\cleo\..\modloader\real ped overhaul\cleo\bag.cs
+27/12/2025 19:07:20.925  c:\program files (x86)\rockstar games\test 2\cleo\..\modloader\real ped overhaul\cleo\briefcase.cs
+27/12/2025 19:07:20.925  c:\program files (x86)\rockstar games\test 2\cleo\..\modloader\real ped overhaul\cleo\cane.cs
+27/12/2025 19:07:20.925  c:\program files (x86)\rockstar games\test 2\cleo\..\modloader\real ped overhaul\cleo\newspaper.cs
+27/12/2025 19:07:20.925  c:\program files (x86)\rockstar games\test 2\cleo\..\modloader\real ped overhaul\cleo\real_peds.cs
+27/12/2025 19:07:20.925  c:\program files (x86)\rockstar games\test 2\cleo\..\modloader\real ped overhaul\cleo\real_peds2.cs
+27/12/2025 19:07:20.925  c:\program files (x86)\rockstar games\test 2\cleo\..\modloader\real ped overhaul\cleo\shopping bag.cs
+27/12/2025 19:07:20.925  c:\program files (x86)\rockstar games\test 2\cleo\..\modloader\real ped overhaul\cleo\taxi.cs
+27/12/2025 19:07:20.925  c:\program files (x86)\rockstar games\test 2\cleo\..\modloader\weaponrecoilauto\cleo\weaponrecoilauto.cs
+27/12/2025 19:07:20.925  c:\program files (x86)\rockstar games\test 2\cleo\2048MB-StreamMemory.cs
+27/12/2025 19:07:20.925  c:\program files (x86)\rockstar games\test 2\cleo\MemFix.cs
+27/12/2025 19:07:20.925  c:\program files (x86)\rockstar games\test 2\cleo\RZL-Trainer.cs
+27/12/2025 19:07:20.925  c:\program files (x86)\rockstar games\test 2\cleo\RagDoll_FrameAdjust.cs
+27/12/2025 19:07:20.925  c:\program files (x86)\rockstar games\test 2\cleo\RagDoll_uniqueAbility.cs
+27/12/2025 19:07:20.925  c:\program files (x86)\rockstar games\test 2\cleo\SFBR.cs
+27/12/2025 19:07:20.925  c:\program files (x86)\rockstar games\test 2\cleo\SMBR.cs.cs
+27/12/2025 19:07:20.925  c:\program files (x86)\rockstar games\test 2\cleo\StreamMemFix.cs
+27/12/2025 19:07:20.925  c:\program files (x86)\rockstar games\test 2\cleo\cheats.cs
+27/12/2025 19:07:20.925  c:\program files (x86)\rockstar games\test 2\cleo\force4.cs
+27/12/2025 19:07:20.925  c:\program files (x86)\rockstar games\test 2\cleo\memory1024.cs
+27/12/2025 19:07:20.925  c:\program files (x86)\rockstar games\test 2\cleo\memory512.cs
+27/12/2025 19:07:20.925  c:\program files (x86)\rockstar games\test 2\cleo\noisefix.cs
+27/12/2025 19:07:20.925  c:\program files (x86)\rockstar games\test 2\cleo\static_car_shadow.cs
+27/12/2025 19:07:20.925 Starting CLEO scripts...
+27/12/2025 19:07:20.925 
+27/12/2025 19:07:20.925 Loading custom script 'c:\program files (x86)\rockstar games\test 2\cleo\..\modloader\dynamic weapon draw sounds\cleo\dynamic weapon draw sound.cs'...
+27/12/2025 19:07:20.926 Registering custom script named 'dynamic'
+27/12/2025 19:07:20.926 
+27/12/2025 19:07:20.926 Loading custom script 'c:\program files (x86)\rockstar games\test 2\cleo\..\modloader\enterable hidden interiors repatched\cleo\ehi_repatched.cs'...
+27/12/2025 19:07:20.926 Registering custom script named 'ehi_rep'
+27/12/2025 19:07:20.926 
+27/12/2025 19:07:20.926 Loading custom script 'c:\program files (x86)\rockstar games\test 2\cleo\..\modloader\real ped overhaul\cleo\bag.cs'...
+27/12/2025 19:07:20.926 Registering custom script named 'bag.cs'
+27/12/2025 19:07:20.926 
+27/12/2025 19:07:20.926 Loading custom script 'c:\program files (x86)\rockstar games\test 2\cleo\..\modloader\real ped overhaul\cleo\briefcase.cs'...
+27/12/2025 19:07:20.927 Registering custom script named 'briefca'
+27/12/2025 19:07:20.927 
+27/12/2025 19:07:20.927 Loading custom script 'c:\program files (x86)\rockstar games\test 2\cleo\..\modloader\real ped overhaul\cleo\cane.cs'...
+27/12/2025 19:07:20.927 Registering custom script named 'cane.cs'
+27/12/2025 19:07:20.927 
+27/12/2025 19:07:20.927 Loading custom script 'c:\program files (x86)\rockstar games\test 2\cleo\..\modloader\real ped overhaul\cleo\newspaper.cs'...
+27/12/2025 19:07:20.927 Registering custom script named 'newspap'
+27/12/2025 19:07:20.927 
+27/12/2025 19:07:20.927 Loading custom script 'c:\program files (x86)\rockstar games\test 2\cleo\..\modloader\real ped overhaul\cleo\real_peds.cs'...
+27/12/2025 19:07:20.927 Registering custom script named 'real_pe'
+27/12/2025 19:07:20.927 
+27/12/2025 19:07:20.928 Loading custom script 'c:\program files (x86)\rockstar games\test 2\cleo\..\modloader\real ped overhaul\cleo\real_peds2.cs'...
+27/12/2025 19:07:20.928 Registering custom script named 'real_pe'
+27/12/2025 19:07:20.928 
+27/12/2025 19:07:20.928 Loading custom script 'c:\program files (x86)\rockstar games\test 2\cleo\..\modloader\real ped overhaul\cleo\shopping bag.cs'...
+27/12/2025 19:07:20.928 Registering custom script named 'shoppin'
+27/12/2025 19:07:20.928 
+27/12/2025 19:07:20.928 Loading custom script 'c:\program files (x86)\rockstar games\test 2\cleo\..\modloader\real ped overhaul\cleo\taxi.cs'...
+27/12/2025 19:07:20.928 Registering custom script named 'taxi.cs'
+27/12/2025 19:07:20.928 
+27/12/2025 19:07:20.928 Loading custom script 'c:\program files (x86)\rockstar games\test 2\cleo\..\modloader\weaponrecoilauto\cleo\weaponrecoilauto.cs'...
+27/12/2025 19:07:20.929 Registering custom script named 'weaponr'
+27/12/2025 19:07:20.929 
+27/12/2025 19:07:20.929 Loading custom script 'c:\program files (x86)\rockstar games\test 2\cleo\2048MB-StreamMemory.cs'...
+27/12/2025 19:07:20.929 Registering custom script named '2048MB-'
+27/12/2025 19:07:20.929 
+27/12/2025 19:07:20.929 Loading custom script 'c:\program files (x86)\rockstar games\test 2\cleo\MemFix.cs'...
+27/12/2025 19:07:20.929 Registering custom script named 'MemFix.'
+27/12/2025 19:07:20.929 
+27/12/2025 19:07:20.929 Loading custom script 'c:\program files (x86)\rockstar games\test 2\cleo\RZL-Trainer.cs'...
+27/12/2025 19:07:20.938 Registering custom script named 'RZL-Tra'
+27/12/2025 19:07:20.938 
+27/12/2025 19:07:20.938 Loading custom script 'c:\program files (x86)\rockstar games\test 2\cleo\RagDoll_FrameAdjust.cs'...
+27/12/2025 19:07:20.938 Registering custom script named 'RagDoll'
+27/12/2025 19:07:20.938 
+27/12/2025 19:07:20.938 Loading custom script 'c:\program files (x86)\rockstar games\test 2\cleo\RagDoll_uniqueAbility.cs'...
+27/12/2025 19:07:20.938 Registering custom script named 'RagDoll'
+27/12/2025 19:07:20.938 
+27/12/2025 19:07:20.938 Loading custom script 'c:\program files (x86)\rockstar games\test 2\cleo\SFBR.cs'...
+27/12/2025 19:07:20.938 Registering custom script named 'SFBR.cs'
+27/12/2025 19:07:20.938 
+27/12/2025 19:07:20.938 Loading custom script 'c:\program files (x86)\rockstar games\test 2\cleo\SMBR.cs.cs'...
+27/12/2025 19:07:20.939 Registering custom script named 'SMBR.cs'
+27/12/2025 19:07:20.939 
+27/12/2025 19:07:20.939 Loading custom script 'c:\program files (x86)\rockstar games\test 2\cleo\StreamMemFix.cs'...
+27/12/2025 19:07:20.939 Registering custom script named 'StreamM'
+27/12/2025 19:07:20.939 
+27/12/2025 19:07:20.939 Loading custom script 'c:\program files (x86)\rockstar games\test 2\cleo\cheats.cs'...
+27/12/2025 19:07:20.939 Custom script 'c:\program files (x86)\rockstar games\test 2\cleo\cheats.cs' found in the stop-list
+27/12/2025 19:07:20.939 
+27/12/2025 19:07:20.939 Loading custom script 'c:\program files (x86)\rockstar games\test 2\cleo\force4.cs'...
+27/12/2025 19:07:20.940 Registering custom script named 'force4.'
+27/12/2025 19:07:20.940 
+27/12/2025 19:07:20.940 Loading custom script 'c:\program files (x86)\rockstar games\test 2\cleo\memory1024.cs'...
+27/12/2025 19:07:20.940 Registering custom script named 'memory1'
+27/12/2025 19:07:20.940 
+27/12/2025 19:07:20.940 Loading custom script 'c:\program files (x86)\rockstar games\test 2\cleo\memory512.cs'...
+27/12/2025 19:07:20.940 Registering custom script named 'memory5'
+27/12/2025 19:07:20.940 
+27/12/2025 19:07:20.940 Loading custom script 'c:\program files (x86)\rockstar games\test 2\cleo\noisefix.cs'...
+27/12/2025 19:07:20.940 Registering custom script named 'noisefi'
+27/12/2025 19:07:20.940 
+27/12/2025 19:07:20.940 Loading custom script 'c:\program files (x86)\rockstar games\test 2\cleo\static_car_shadow.cs'...
+27/12/2025 19:07:20.940 Registering custom script named 'static_'
+27/12/2025 19:07:20.943 Unregistering custom script named 'noisefi'
+27/12/2025 19:07:20.943 Unregistering custom script named 'memory5'
+27/12/2025 19:07:20.943 Unregistering custom script named 'memory1'
+27/12/2025 19:07:20.943 Unregistering custom script named 'StreamM'
+27/12/2025 19:07:20.943 Unregistering custom script named 'RagDoll'
+27/12/2025 19:07:20.943 Unregistering custom script named 'MemFix.'
+27/12/2025 19:07:20.943 Unregistering custom script named '2048MB-'
+27/12/2025 19:07:20.950 [0A92] Starting new custom script cleo\NewSaveHouses.s from thread named 'ehifixd'
+27/12/2025 19:07:20.950 
+27/12/2025 19:07:20.950 Loading custom script 'cleo\NewSaveHouses.s'...
+27/12/2025 19:07:20.951 Registering custom script named 'NewSave'
+27/12/2025 19:07:20.952 [0A92] Starting new custom script cleo\GlazedOfficeLift.s from thread named 'ehifixd'
+27/12/2025 19:07:20.952 
+27/12/2025 19:07:20.952 Loading custom script 'cleo\GlazedOfficeLift.s'...
+27/12/2025 19:07:20.952 Registering custom script named 'GlazedO'
+27/12/2025 19:07:20.953 [0A92] Starting new custom script cleo\DatingInteriors.s from thread named 'ehifixd'
+27/12/2025 19:07:20.953 
+27/12/2025 19:07:20.953 Loading custom script 'cleo\DatingInteriors.s'...
+27/12/2025 19:07:20.953 Registering custom script named 'DatingI'
+27/12/2025 19:07:20.957 [0A92] Starting new custom script cleo\EHI_Enex_Tweaks.s from thread named 'ehifixd'
+27/12/2025 19:07:20.957 
+27/12/2025 19:07:20.957 Loading custom script 'cleo\EHI_Enex_Tweaks.s'...
+27/12/2025 19:07:20.958 Registering custom script named 'EHI_Ene'
+27/12/2025 19:07:57.774 
+27/12/2025 19:07:57.774 Unregistering custom script named 'enextwk'
+27/12/2025 19:08:23.408 
+27/12/2025 19:08:23.408 
+27/12/2025 19:08:23.408 Finalizing SoundSystem...
+27/12/2025 19:08:23.408 SoundSystem finalized
+27/12/2025 19:08:23.411 
+27/12/2025 19:08:23.411 Deleting FXTs...
+27/12/2025 19:08:23.413 Ending current game session
+27/12/2025 19:08:23.413 
+27/12/2025 19:08:23.413 Unloading scripts...
+27/12/2025 19:08:23.413 Unregistering custom script named 'ehidate'
+27/12/2025 19:08:23.413 Unregistering custom script named 'ehiele'
+27/12/2025 19:08:23.413 Unregistering custom script named 'svlabig'
+27/12/2025 19:08:23.413 Unregistering custom script named 'static_'
+27/12/2025 19:08:23.413 Unregistering custom script named 'txload'
+27/12/2025 19:08:23.413 Unregistering custom script named 'SMBR.cs'
+27/12/2025 19:08:23.413 Unregistering custom script named 'SFBR.cs'
+27/12/2025 19:08:23.413 Unregistering custom script named 'RagDoll'
+27/12/2025 19:08:23.413 Unregistering custom script named 'rzl-trn'
+27/12/2025 19:08:23.413 Unregistering custom script named 'weaponr'
+27/12/2025 19:08:23.413 Unregistering custom script named 'taxi.cs'
+27/12/2025 19:08:23.413 Unregistering custom script named 'shoppin'
+27/12/2025 19:08:23.413 Unregistering custom script named 'real_pe'
+27/12/2025 19:08:23.413 Unregistering custom script named 'real_pe'
+27/12/2025 19:08:23.413 Unregistering custom script named 'newspap'
+27/12/2025 19:08:23.413 Unregistering custom script named 'cane.cs'
+27/12/2025 19:08:23.413 Unregistering custom script named 'briefca'
+27/12/2025 19:08:23.413 Unregistering custom script named 'bag.cs'
+27/12/2025 19:08:23.413 Unregistering custom script named 'ehifixd'
+27/12/2025 19:08:23.413 Unregistering custom script named 'dynamic'
+27/12/2025 19:08:23.413  Deleting inactive script named 'dynamic'
+27/12/2025 19:08:23.413  Deleting inactive script named 'ehifixd'
+27/12/2025 19:08:23.413  Deleting inactive script named 'bag.cs'
+27/12/2025 19:08:23.413  Deleting inactive script named 'briefca'
+27/12/2025 19:08:23.413  Deleting inactive script named 'cane.cs'
+27/12/2025 19:08:23.413  Deleting inactive script named 'newspap'
+27/12/2025 19:08:23.413  Deleting inactive script named 'real_pe'
+27/12/2025 19:08:23.413  Deleting inactive script named 'real_pe'
+27/12/2025 19:08:23.413  Deleting inactive script named 'shoppin'
+27/12/2025 19:08:23.413  Deleting inactive script named 'taxi.cs'
+27/12/2025 19:08:23.413  Deleting inactive script named 'weaponr'
+27/12/2025 19:08:23.413  Deleting inactive script named '2048MB-'
+27/12/2025 19:08:23.413  Deleting inactive script named 'MemFix.'
+27/12/2025 19:08:23.413  Deleting inactive script named 'rzl-trn'
+27/12/2025 19:08:23.413  Deleting inactive script named 'RagDoll'
+27/12/2025 19:08:23.413  Deleting inactive script named 'RagDoll'
+27/12/2025 19:08:23.413  Deleting inactive script named 'SFBR.cs'
+27/12/2025 19:08:23.413  Deleting inactive script named 'SMBR.cs'
+27/12/2025 19:08:23.413  Deleting inactive script named 'StreamM'
+27/12/2025 19:08:23.413  Deleting inactive script named 'txload'
+27/12/2025 19:08:23.413  Deleting inactive script named 'memory1'
+27/12/2025 19:08:23.413  Deleting inactive script named 'memory5'
+27/12/2025 19:08:23.413  Deleting inactive script named 'noisefi'
+27/12/2025 19:08:23.413  Deleting inactive script named 'static_'
+27/12/2025 19:08:23.413  Deleting inactive script named 'svlabig'
+27/12/2025 19:08:23.413  Deleting inactive script named 'ehiele'
+27/12/2025 19:08:23.413  Deleting inactive script named 'ehidate'
+27/12/2025 19:08:23.413  Deleting inactive script named 'enextwk'
+27/12/2025 19:08:23.413 Cleaning up script data...
+27/12/2025 19:08:23.413 
+27/12/2025 19:08:23.413 Unloading CLEO plugins:
+27/12/2025 19:08:23.413  - Unloading 'cleo\CLEO+.cleo' at 0x79B60000
+27/12/2025 19:08:23.413  - Unloading 'cleo\cleo_plugins\SA.Text.cleo' at 0x79AF0000
+27/12/2025 19:08:23.413  - Unloading 'cleo\cleo_plugins\SA.MemoryOperations.cleo' at 0x79AA0000
+27/12/2025 19:08:23.413  - Unloading 'cleo\cleo_plugins\SA.Math.cleo' at 0x79A50000
+27/12/2025 19:08:23.414  - Unloading 'cleo\cleo_plugins\SA.Input.cleo' at 0x79A10000
+27/12/2025 19:08:23.414  - Unloading 'cleo\cleo_plugins\SA.IniFiles.cleo' at 0x799D0000
+27/12/2025 19:08:23.414  - Unloading 'cleo\cleo_plugins\SA.GameEntities.cleo' at 0x79990000
+27/12/2025 19:08:23.414  - Unloading 'cleo\cleo_plugins\SA.FileSystemOperations.cleo' at 0x79930000
+27/12/2025 19:08:23.414  - Unloading 'cleo\cleo_plugins\SA.DebugUtils.cleo' at 0x798B0000
+27/12/2025 19:08:23.414  - Unloading 'cleo\cleo_plugins\SA.Audio.cleo' at 0x79860000
+27/12/2025 19:08:23.414 CLEO plugins unloaded
+27/12/2025 19:08:23.414 
+27/12/2025 19:08:23.414 Custom Opcode System finalized:
+27/12/2025 19:08:23.414  Last opcode executed: 0AAA
+27/12/2025 19:08:23.414  Previous opcode executed: 0AAA
+27/12/2025 19:08:23.414 
+27/12/2025 19:08:23.414 Log finished.
