@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+</head>
+<body>
+<h1>CLEO Library for GTA San Andreas (Windows PC)</h1>
+<p>CLEO Library is an open-source extensible plugin for the game Grand Theft Auto: San Andreas by Rockstar Games, allowing the use of thousands of unique mods which change or expand the gameplay. You may find more information about CLEO on the official website <a href="https://cleo.li">https://cleo.li</a></p>
+<h2>Installation</h2>
+<p>An ASI loader is required for CLEO 5 to work. CLEO 5 is bundled with several popular ASI Loaders (<a href="https://cookieplmonster.github.io/mods/gta-sa/#asiloader">Silent's ASI Loader</a> and <a href="https://github.com/ThirteenAG/Ultimate-ASI-Loader/">Ultimate ASI Loader</a>).</p>
+<p>Follow the instructions on the <a href="https://github.com/cleolibrary/CLEO5/releases">release page</a> to choose a bundle that works best for you.</p>
+<p>The ASI Loader replaces one original game file: <code>vorbisFile.dll</code> - be sure to make a backup of this file.
+CLEO itself does not replace any game file, however the following files and folders are added:</p>
+<ul>
+<li><strong>cleo.asi</strong> - core library</li>
+<li><strong>cleo.log</strong> - main log file</li>
+<li><strong>bass.dll</strong> - audio engine library</li>
+<li><strong>cleo\</strong> - CLEO script <code>.cs</code> files directory</li>
+<li><strong>cleo\.cleo_config.ini</strong> - CLEO configuration file</li>
+<li><strong>cleo\.config\sa.json</strong> - opcodes info file</li>
+<li><strong>cleo\cleo_plugins\SA.Audio.cleo</strong> - audio playback utilities powered by BASS.dll library</li>
+<li><strong>cleo\cleo_plugins\SA.DebugUtils.cleo</strong> - script debugging utilities plugin</li>
+<li><strong>cleo\cleo_plugins\SA.FileSystemOperations.cleo</strong> - disk drive files related operations plugin</li>
+<li><strong>cleo\cleo_plugins\SA.GameEntities.cleo</strong> - cars/peds/objects/pickups related utilities plugin</li>
+<li><strong>cleo\cleo_plugins\SA.IniFiles.cleo</strong> - .ini config files handling plugin</li>
+<li><strong>cleo\cleo_plugins\SA.Input.cleo</strong> - keyboard/mouse related utilities plugin</li>
+<li><strong>cleo\cleo_plugins\SA.Math.cleo</strong> - additional math operations plugin</li>
+<li><strong>cleo\cleo_plugins\SA.MemoryOperations.cleo</strong> - memory and .dll libraries utilities plugin</li>
+<li><strong>cleo\cleo_plugins\SA.Text.cleo</strong> - text processing and screen drawing plugin</li>
+<li><strong>cleo\cleo_saves\</strong> - CLEO save files directory</li>
+<li><strong>cleo\cleo_text\</strong> - CLEO text <code>.fxt</code> files directory</li>
+</ul>
+<p>All plugins are optional, however they may be required by various CLEO scripts.</p>
+<p>Proper CLEO installation can be verified by existence of new text displayed in the bottom-left corner of game's main menu.
+CLEO library itself does not extend/modify gameplay from end user perspective, there is no such thing as "CLEO menu".
+New features are provided by user made scripts (see CLEO Scripts).</p>
+<h2>CLEO Scripts</h2>
+<p>CLEO allows the installation of 'CLEO scripts', which often use the extension <code>.cs</code>. These third-party scripts are entirely user-made and are in no way supported by the developers of this library. While CLEO itself should work in a wide range of game installations, individual scripts are known to have their own compatibility restrictions and can not be guaranteed to work.
+CLEO scripts can be found on Grand Theft Auto fansites and modding sites such as:</p>
+<ul>
+<li><a href="https://libertycity.net/files/gta-san-andreas/mods/cleo-scripts/">https://libertycity.net/files/gta-san-andreas/mods/cleo-scripts/</a></li>
+<li><a href="https://www.gtainside.com/en/sanandreas/mods-322/">https://www.gtainside.com/en/sanandreas/mods-322/</a></li>
+<li><a href="http://hotmist.ddo.jp/cleomod/index.html">http://hotmist.ddo.jp/cleomod/index.html</a></li>
+<li><a href="https://zazmahall.de/CLEO.htm">https://zazmahall.de/CLEO.htm</a></li>
+</ul>
+<h2>Compatibility Mode</h2>
+<p>CLEO is continually being improved and extended over time. In very rare circumstances, new major releases may break some older scripts. To fix this, CLEO provides a 'compatibility mode' to closely emulate behavior of previous versions and improve stability of old scripts. </p>
+<ul>
+<li>To run a script with maximum compatibility with 'CLEO 4', change the script extension from <code>.cs</code> to <code>.cs4</code>.</li>
+<li>To run a script with maximum compatibility with 'CLEO 3', change the script extension from <code>.cs</code> to <code>.cs3</code>.<br />
+<a href="https://github.com/cleolibrary/CLEO5/wiki/CLEO4-Compat-Mode-(.cs4)">Read more about differences in legacy modes</a></li>
+</ul>
+<h2>Creating CLEO Scripts</h2>
+<ul>
+<li><a href="https://tutorial.sannybuilder.com/">CLEO scripting introduction</a></li>
+<li><a href="https://github.com/cleolibrary/CLEO5/tree/master/examples">Example CLEO5 scripts</a></li>
+</ul>
+<h2>Credits</h2>
+<ul>
+<li>Seemann - the author and original developer of the CLEO library</li>
+<li>Alien, Deji - the lead developers of CLEO 4</li>
+<li>Miran - the lead developer of CLEO 5</li>
+<li>all contributors to the GitHub project at <a href="https://github.com/cleolibrary/CLEO5">https://github.com/cleolibrary/CLEO5</a></li>
+</ul>
+<p>Special thanks to:</p>
+<ul>
+<li>Stanislav Golovin (a.k.a. listener) for his great work in exploration of the GTA series.</li>
+<li>NTAuthority and LINK/2012 for additional support with CLEO 4.3.</li>
+<li>mfisto for the alpha-testing of CLEO 4, his support and advices.</li>
+<li>123nir for the alpha-testing of CLEO 5.0.0, troubleshooting and valuable bug reports.</li>
+<li>Hamal for the beta-testing of CLEO 5.0.0, troubleshooting and valuable bug reports</li>
+</ul>
+<p>The developers are not affiliated with Take 2 Interactive or Rockstar Games.
+By using this product or any of the additional products included you take your own personal responsibility for any negative consequences should they arise.</p>
+</body>
+</html>
