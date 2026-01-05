@@ -1,0 +1,258 @@
+CHT1 Armas
+CHT2 Clima
+CHT3 Nivel de busqueda
+CHT4 Hora
+CHT5 Personajes
+CHT6 Vehiculos
+CHT7 Generar Vehiculos
+CHT8 Jugador
+CHT9 Trafico
+CHT10 Otros
+CHT11 Trampas
+CHT12 Armas
+CHT13 Cuerpo a Cuerpo
+CHT14 Pistolas
+CHT15 Habilidades de Pistolero
+CHT16 Habilidades de Gangster
+CHT17 Habilidades de Asesino Profesional
+CHT19 Guardar Partida
+CHT20 Usa las teclas IZQUIERDA y DERECHA para seleccionar el clima. Presiona ~k~~PED_SPRINT~ para seleccionar, y ~k~~VEHICLE_ENTER_EXIT~ para cancelar.
+CHT21 Municion Maxima
+CHT22 Municion Infinita
+CHT23 Fijar Nivel de Busqueda
+CHT24 Despejar Nivel de Busqueda
+CHT25 Nunca Buscado
+CHT26 Presiona 1-6 para fijar el nivel de busqueda, o ~k~~VEHICLE_ENTER_EXIT~ para cancelar.
+CHT27 Rapido
+CHT28 Normal
+CHT29 Lento
+CHT30 Motin
+CHT31 Attack CJ
+CHT32 Las Personas Tienen Armas
+CHT33 Reclutar a Cualquiera: 9mm
+CHT34 Reclutar a Cualquiera: AK-47
+CHT35 Reclutar a Cualquiera: Lanza Cohetes
+CHT36 Conduccion Perfecta
+CHT37 Los Carros Andan en el Agua
+CHT38 Los Carros Vuelan
+CHT39 Super Saltos
+CHT40 Carro Tanque
+CHT41 Nitro
+CHT42 Los Carros Flotan
+CHT43 Tiroteos Desde los Coches
+CHT44 Los Botes Vuelan
+CHT45 Presiona ~k~~VEHICLE_ENTER_EXIT~ cuando este hecho.
+CHT46 Usa las teclas IZQUIERDA y DERECHA para cambiar, y presiona la tecla de ARRIBA cuando este hecho.
+CHT47 Teletransportarse al Marcador
+CHT48 Trampas de Bandas
+CHT49 Bandas en San Fierro
+CHT50 Bandas en Las Venturas
+CHT51 Bandas en Campo & Desierto
+CHT52 Generar Ballas
+CHT53 Generar Vagos
+CHT54 Generar Groves
+CHT55 Activar Guerra de Bandas
+CHT56 Desbloquear Islas
+CHT57 Salud y Blindaje al Maximo
+CHT58 Salud al Maximo
+CHT59 Blindaje al Maximo
+CHT60 Estadisticas
+CHT61 Salud Infinita
+CHT62 Dinero
+CHT63 Sprinter Infinito
+CHT64 Mantener Armas
+CHT65 Gordura: ~1~
+CHT66 Resistencia: ~1~
+CHT67 Musculatura: ~1~
+CHT68 Sex Appeal: ~1~
+CHT69 Habilidad de Conduccion: ~1~
+CHT70 Habilidad de Vuelo: ~1~
+CHT71 Habilidad con Moto: ~1~
+CHT72 Habilidad con Bicicleta: ~1~
+CHT73 Suerte: ~1~
+CHT74 Respeto: ~1~
+CHT75 Usa las flechas IZQUIERDA y DERECHA para cambiar la estadística, las flechas ARRIBA y ABAJO para cambiar las estadísticas, y ~k~~PED_SPRINT~ cuando haya terminado.
+CHT76 Nunca Tienes Hambre
+CHT77 $~1~
+CHT78 Usa las flechas IZQUIERDA y DERECHA para seleccionar el Monto, pulse SHIFT al mismo tiempo que las flechas para aumentar la velocidad, y presione la flecha hacia arriba cuando haya terminado.
+CHT79 Oxigeno Infinito
+CHT80 Escopetas
+CHT81 Metralletas
+CHT82 Rifles de Asalto
+CHT83 Rifles
+CHT84 Armas Pesadas
+CHT85 Arrojadizos
+CHT86 Otras
+CHT87 Otras 2
+CHT88 Regalos
+CHT89 Manopla
+CHT90 Palo de Golf
+CHT91 Bolillo Policiaco
+CHT92 Cuchillo
+CHT93 Bate de Beisbol
+CHT94 Pala
+CHT95 Palo de billar
+CHT96 Katana
+CHT97 Motosierra
+CHT98 Pistola
+CHT99 Pistola con Cilenciador
+CH100 Desert Eagle
+CH101 Escopeta
+CH102 Escopeta Recortada
+CH103 Escopeta de Combate
+CH104 Tec-9
+CH105 Micro Sub Fusil
+CH106 MP-5
+CH107 AK-47
+CH108 M4
+CH109 Rifle
+CH110 Rifle Francotirador
+CH111 Lanza Cohetes
+CH112 Lanza Cohetes Buscador de Calor
+CH113 Lanza llamas
+CH114 Minigun
+CH115 Granada
+CH116 Molotov
+CH117 Granada de Gas
+CH118 Cargas Explosivas
+CH119 Lata de Spray
+CH120 Extinguidor
+CH121 Camara
+CH122 Lentes de Vision Nocturnas
+CH123 Lentes Termicos
+CH124 Paracaidas
+CH125 Consolador Largo
+CH126 Consolador Corto
+CH127 Vibrador Largo
+CH128 Vibrador Corto
+CH129 Flores
+CH130 Caña
+CH131 Jetpack
+CH132 Carro Invisible
+CH133 Luces Verdes
+CH134 Conductores Agresivos
+CH135 Trafico Rosa
+CH136 Trafico Negro
+CH137 Motos
+CH138 Botes
+CH139 Fuera de la carretera
+CH140 Sedanes
+CH141 Aviones
+CH142 Helicopteros
+CH143 Industriales
+CH144 Truco ~g~Activado~w~
+CH145 Truco ~r~Desactivado~w~
+CH146 Servicios Publcos
+CH147 Deportivos
+CH148 Lowriders
+CH149 Convertibles
+CH150 Otros
+CH151 Grupo 1
+CH152 Grupo 2
+CH153 Grupo 3
+CH154 Accesorios
+CH155 Policia (LS)
+CH156 Policia (SF)
+CH157 Policia (LV)
+CH158 Baggage Trailer 1
+CH159 Baggage Trailer 2
+CH160 Airplane Stairs
+CH161 Farm Equipment
+CH162 Utility Trailer
+CH163 Trailer 1
+CH164 Trailer 2
+CH165 Trailer 3
+CH166 $1
+CH167 $10
+CH168 $100
+CH169 $1000
+CH170 $10000
+CH171 $100000
+CH172 $1000000
+CH173 -$1
+CH174 -$10
+CH175 -$100
+CH176 -$1000
+CH177 -$10000
+CH178 -$100000
+CH179 -$1000000
+CH180 Ganar Dinero
+CH181 Perder Dinero
+CH182 Los Santos
+CH183 Campo
+CH184 San Fierro
+CH185 Desierto
+CH186 Las Venturas
+CH187 Mini Juegos
+CH188 Selector de Misiones
+CH189 Big Smoke
+CH190 Ryder
+CH191 Sweet
+CH192 Cesar
+CH193 C.R.A.S.H.
+CH194 OG Loc
+CH195 Catalina
+CH196 The Truth
+CH197 Garage
+CH198 Wu Zi Mu
+CH199 Wang Cars
+CH200 Zero
+CH201 Toreno
+CH202 Four Dragons
+CH203 Caligula's
+CH204 Madd Dogg
+CH205 Sweet 2
+CH206 Mansion
+CH207 Airfield
+CH208 They Crawled From Uranus
+CH209 Dualuty
+CH210 Go Go Space Monkey
+CH211 Let's Get Ready To Bumble
+CH212 Off-Track Betting
+CH213 Riot
+CH214 End of the Line Pt. 1
+CH215 End of the Line Pt. 2
+CH216 End of the Line Pt. 3
+CH217 Loco Syndicate
+CH218 Take Screenshot
+CH219 Usa las flechas IZQUIERDA y DERECHA para seleccionar el color primario, y las flechas ARRIBA y ABAJO para seleccionar el color secundario. Pulsa ~ k ~ ~ ~ VEHICLE_ACCELERATE cuando haya terminado.
+CH220 Reparar Vehiculo
+CH221 Carro Indestructible
+CH222 Instalar Hidraulicos
+CH223 Instalar Nitro
+CH224 Hacer el Vehiculo Pesado
+CH225 Cambiar Colores
+CH226 Skin Selector
+CH227 Utilice las flechas izquierda y derecha para seleccionar una SKIN, y presione la flecha hacia arriba cuando haya terminado.
+CH228 Sin Personas
+CH229 Entrar a Todos los Lugares
+CH230 Estilo de Pelea
+CH231 Por Defecto
+CH232 Normal
+CH233 Boxeo
+CH234 Karate
+CH235 Kickboxing
+CH236 Bate/Pala
+CH237 Cuchillo
+CH238 Espada
+CH239 Motosierra
+CH240 Consolador
+CH241 Latigo de Pistola
+CH242 Parar el tiempo
+CH243 Utilice las teclas de flecha para moverse, y WASD para controlar la altura y la rotación. Pulsa ~ k ~ ~ ~ VEHICLE_ENTER_EXIT cuando haya terminado.
+CH244 Fijar la Hora
+CH245 Usa las flechas IZQUIERDA y DERECHA para cambiar la hora, las flechas ARRIBA y ABAJO para ajustar los minutos, y SHIFT para avanzar en el día. Pulsa ~ k ~ ~ ~ VEHICLE_ENTER_EXIT cuando haya terminado.
+CH246 Fijar la municion
+CH247 Usa las flechas IZQUIERDA y DERECHA para cambiar las armas, las flechas ARRIBA y ABAJO para ajustar la munición y para pasar de la velocidad. Pulsa ~ k ~ ~ ~ VEHICLE_ENTER_EXIT cuando haya terminado.
+CH248 Desbloquear el Vehiculo mas Cercano
+CH249 Bloquear el Vehiculo mas Cercano
+CH250 Modo Drive-By
+CH251 Presione ~k~~VEHICLE_HORN~ para salir.
+CH252 Bloquear el Nivel de Busqueda
+CH253 Establecer las pandillas actuales de la zona
+CH254 Usa las flechas IZQUIERDA y DERECHA para cambiar las bandas, las flechas ARRIBA y ABAJO para ajustar la densidad, y ~ k ~ ~ ~ VEHICLE_ENTER_EXIT cuando haya terminado.
+CH255 Grove Street: ~1~
+CH256 Vagos: ~1~
+CH257 Ballas: ~1~
+CH258 Desvolcar Vehiculo
+CH259 No Caerse de la moto
