@@ -1,0 +1,5 @@
+Keep this txt file inside Modloader. - Deixe este arquivo txt dentro do Modloader.
+
+IDE data\maps\mans_with_objects.IDE
+COLFILE 0 models\METLA.col
+COLFILE 0 models\minewa.col
