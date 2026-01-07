@@ -1,0 +1,12 @@
+====================================================
+         Allowed Letter, Number, and Symbol
+====================================================
+Letter: a-z  A-Z  [Included SPACE]
+Number: 0-9
+Symbol: ! - = _ + , [ ] { } ( ) @ # $ % ^ & `
+====================================================
+
+Maximum Name length is 15!!!
+Use  .  (Dot) at name part not allowed
+Use  ~  (Tilde) Game will Crash when open menu list
+====================================================
